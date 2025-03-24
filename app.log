@@ -1,0 +1,873 @@
+2025-03-22 19:17:42,585 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.129.132.106:8080
+2025-03-22 19:17:42,585 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-22 19:17:42,586 - INFO -  * Restarting with stat
+2025-03-22 19:17:42,875 - WARNING -  * Debugger is active!
+2025-03-22 19:17:42,879 - INFO -  * Debugger PIN: 839-379-047
+2025-03-22 19:17:45,471 - INFO - 127.0.0.1 - - [22/Mar/2025 19:17:45] "GET / HTTP/1.1" 200 -
+2025-03-22 19:17:51,736 - INFO - 127.0.0.1 - - [22/Mar/2025 19:17:51] "GET / HTTP/1.1" 200 -
+2025-03-22 19:18:40,652 - INFO - PPT path: C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\1.pptx
+2025-03-22 19:18:40,652 - INFO - Running command to convert PPT to PDF: ['C:\\Program Files\\LibreOffice\\program\\soffice.exe', '--headless', '--convert-to', 'pdf', 'C:\\Users\\7sea\\OneDrive\\Data\\Runningdata\\DSapp\\ztcppt\\uploads\\1.pptx', '--outdir', 'C:\\Users\\7sea\\AppData\\Local\\Temp\\tmp48eifmu8']
+2025-03-22 19:18:50,205 - INFO - LibreOffice output: convert C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\1.pptx as a Impress document -> C:\Users\7sea\AppData\Local\Temp\tmp48eifmu8\1.pdf using filter : impress_pdf_Export
+
+2025-03-22 19:18:54,322 - INFO - Saved slide 1 to static/slides\6edc2b5b-8730-4357-a8a7-00b7e6d3ba49\slide_1.png
+2025-03-22 19:18:54,440 - INFO - Saved slide 2 to static/slides\6edc2b5b-8730-4357-a8a7-00b7e6d3ba49\slide_2.png
+2025-03-22 19:18:54,563 - INFO - Saved slide 3 to static/slides\6edc2b5b-8730-4357-a8a7-00b7e6d3ba49\slide_3.png
+2025-03-22 19:18:54,704 - INFO - Saved slide 4 to static/slides\6edc2b5b-8730-4357-a8a7-00b7e6d3ba49\slide_4.png
+2025-03-22 19:18:54,811 - INFO - Saved slide 5 to static/slides\6edc2b5b-8730-4357-a8a7-00b7e6d3ba49\slide_5.png
+2025-03-22 19:18:54,916 - INFO - Saved slide 6 to static/slides\6edc2b5b-8730-4357-a8a7-00b7e6d3ba49\slide_6.png
+2025-03-22 19:18:55,037 - INFO - Saved slide 7 to static/slides\6edc2b5b-8730-4357-a8a7-00b7e6d3ba49\slide_7.png
+2025-03-22 19:18:55,145 - INFO - Saved slide 8 to static/slides\6edc2b5b-8730-4357-a8a7-00b7e6d3ba49\slide_8.png
+2025-03-22 19:18:55,256 - INFO - Saved slide 9 to static/slides\6edc2b5b-8730-4357-a8a7-00b7e6d3ba49\slide_9.png
+2025-03-22 19:18:55,369 - INFO - Saved slide 10 to static/slides\6edc2b5b-8730-4357-a8a7-00b7e6d3ba49\slide_10.png
+2025-03-22 19:18:55,502 - INFO - Saved slide 11 to static/slides\6edc2b5b-8730-4357-a8a7-00b7e6d3ba49\slide_11.png
+2025-03-22 19:18:55,681 - INFO - Saved slide 12 to static/slides\6edc2b5b-8730-4357-a8a7-00b7e6d3ba49\slide_12.png
+2025-03-22 19:18:55,787 - INFO - Saved slide 13 to static/slides\6edc2b5b-8730-4357-a8a7-00b7e6d3ba49\slide_13.png
+2025-03-22 19:18:55,884 - INFO - Saved slide 14 to static/slides\6edc2b5b-8730-4357-a8a7-00b7e6d3ba49\slide_14.png
+2025-03-22 19:18:56,012 - INFO - Saved slide 15 to static/slides\6edc2b5b-8730-4357-a8a7-00b7e6d3ba49\slide_15.png
+2025-03-22 19:18:56,106 - INFO - Saved slide 16 to static/slides\6edc2b5b-8730-4357-a8a7-00b7e6d3ba49\slide_16.png
+2025-03-22 19:18:56,230 - INFO - Saved slide 17 to static/slides\6edc2b5b-8730-4357-a8a7-00b7e6d3ba49\slide_17.png
+2025-03-22 19:18:56,360 - INFO - Saved slide 18 to static/slides\6edc2b5b-8730-4357-a8a7-00b7e6d3ba49\slide_18.png
+2025-03-22 19:18:56,544 - INFO - Saved slide 19 to static/slides\6edc2b5b-8730-4357-a8a7-00b7e6d3ba49\slide_19.png
+2025-03-22 19:18:56,544 - INFO - Converted C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\1.pptx to 19 images in 15.89s
+2025-03-22 19:18:56,555 - INFO - 127.0.0.1 - - [22/Mar/2025 19:18:56] "POST / HTTP/1.1" 200 -
+2025-03-22 19:18:56,619 - INFO - 127.0.0.1 - - [22/Mar/2025 19:18:56] "GET /static/slides/6edc2b5b-8730-4357-a8a7-00b7e6d3ba49/slide_1.png HTTP/1.1" 200 -
+2025-03-22 19:19:22,013 - INFO - 127.0.0.1 - - [22/Mar/2025 19:19:22] "GET /static/slides/6edc2b5b-8730-4357-a8a7-00b7e6d3ba49/slide_2.png HTTP/1.1" 200 -
+2025-03-22 19:20:01,053 - INFO - 127.0.0.1 - - [22/Mar/2025 19:20:01] "[36mGET /static/slides/6edc2b5b-8730-4357-a8a7-00b7e6d3ba49/slide_1.png HTTP/1.1[0m" 304 -
+2025-03-22 19:21:43,090 - INFO - 127.0.0.1 - - [22/Mar/2025 19:21:43] "GET / HTTP/1.1" 200 -
+2025-03-22 19:21:50,869 - INFO - PPT path: C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\1.pptx
+2025-03-22 19:21:50,869 - INFO - Running command to convert PPT to PDF: ['C:\\Program Files\\LibreOffice\\program\\soffice.exe', '--headless', '--convert-to', 'pdf', 'C:\\Users\\7sea\\OneDrive\\Data\\Runningdata\\DSapp\\ztcppt\\uploads\\1.pptx', '--outdir', 'C:\\Users\\7sea\\AppData\\Local\\Temp\\tmpuge5oq_a']
+2025-03-22 19:21:54,240 - INFO - LibreOffice output: convert C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\1.pptx as a Impress document -> C:\Users\7sea\AppData\Local\Temp\tmpuge5oq_a\1.pdf using filter : impress_pdf_Export
+
+2025-03-22 19:21:57,952 - INFO - Saved slide 1 to static/slides\9aaa8783-49c9-4c3f-8856-5cb8723c8453\slide_1.png
+2025-03-22 19:21:58,068 - INFO - Saved slide 2 to static/slides\9aaa8783-49c9-4c3f-8856-5cb8723c8453\slide_2.png
+2025-03-22 19:21:58,192 - INFO - Saved slide 3 to static/slides\9aaa8783-49c9-4c3f-8856-5cb8723c8453\slide_3.png
+2025-03-22 19:21:58,336 - INFO - Saved slide 4 to static/slides\9aaa8783-49c9-4c3f-8856-5cb8723c8453\slide_4.png
+2025-03-22 19:21:58,445 - INFO - Saved slide 5 to static/slides\9aaa8783-49c9-4c3f-8856-5cb8723c8453\slide_5.png
+2025-03-22 19:21:58,548 - INFO - Saved slide 6 to static/slides\9aaa8783-49c9-4c3f-8856-5cb8723c8453\slide_6.png
+2025-03-22 19:21:58,669 - INFO - Saved slide 7 to static/slides\9aaa8783-49c9-4c3f-8856-5cb8723c8453\slide_7.png
+2025-03-22 19:21:58,778 - INFO - Saved slide 8 to static/slides\9aaa8783-49c9-4c3f-8856-5cb8723c8453\slide_8.png
+2025-03-22 19:21:58,887 - INFO - Saved slide 9 to static/slides\9aaa8783-49c9-4c3f-8856-5cb8723c8453\slide_9.png
+2025-03-22 19:21:59,001 - INFO - Saved slide 10 to static/slides\9aaa8783-49c9-4c3f-8856-5cb8723c8453\slide_10.png
+2025-03-22 19:21:59,136 - INFO - Saved slide 11 to static/slides\9aaa8783-49c9-4c3f-8856-5cb8723c8453\slide_11.png
+2025-03-22 19:21:59,311 - INFO - Saved slide 12 to static/slides\9aaa8783-49c9-4c3f-8856-5cb8723c8453\slide_12.png
+2025-03-22 19:21:59,425 - INFO - Saved slide 13 to static/slides\9aaa8783-49c9-4c3f-8856-5cb8723c8453\slide_13.png
+2025-03-22 19:21:59,522 - INFO - Saved slide 14 to static/slides\9aaa8783-49c9-4c3f-8856-5cb8723c8453\slide_14.png
+2025-03-22 19:21:59,653 - INFO - Saved slide 15 to static/slides\9aaa8783-49c9-4c3f-8856-5cb8723c8453\slide_15.png
+2025-03-22 19:21:59,748 - INFO - Saved slide 16 to static/slides\9aaa8783-49c9-4c3f-8856-5cb8723c8453\slide_16.png
+2025-03-22 19:21:59,873 - INFO - Saved slide 17 to static/slides\9aaa8783-49c9-4c3f-8856-5cb8723c8453\slide_17.png
+2025-03-22 19:22:00,004 - INFO - Saved slide 18 to static/slides\9aaa8783-49c9-4c3f-8856-5cb8723c8453\slide_18.png
+2025-03-22 19:22:00,193 - INFO - Saved slide 19 to static/slides\9aaa8783-49c9-4c3f-8856-5cb8723c8453\slide_19.png
+2025-03-22 19:22:00,193 - INFO - Converted C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\1.pptx to 19 images in 9.32s
+2025-03-22 19:22:00,203 - INFO - 127.0.0.1 - - [22/Mar/2025 19:22:00] "POST / HTTP/1.1" 200 -
+2025-03-22 19:22:00,224 - INFO - 127.0.0.1 - - [22/Mar/2025 19:22:00] "GET /static/slides/9aaa8783-49c9-4c3f-8856-5cb8723c8453/slide_1.png HTTP/1.1" 200 -
+2025-03-22 19:23:56,505 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.129.132.106:8080
+2025-03-22 19:23:56,505 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-22 19:23:56,506 - INFO -  * Restarting with stat
+2025-03-22 19:23:56,770 - WARNING -  * Debugger is active!
+2025-03-22 19:23:56,773 - INFO -  * Debugger PIN: 839-379-047
+2025-03-22 19:23:58,227 - INFO - 127.0.0.1 - - [22/Mar/2025 19:23:58] "GET / HTTP/1.1" 200 -
+2025-03-22 19:24:01,870 - INFO - PPT path: C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\1.pptx
+2025-03-22 19:24:01,870 - INFO - Running command to convert PPT to PDF: ['C:\\Program Files\\LibreOffice\\program\\soffice.exe', '--headless', '--convert-to', 'pdf', 'C:\\Users\\7sea\\OneDrive\\Data\\Runningdata\\DSapp\\ztcppt\\uploads\\1.pptx', '--outdir', 'C:\\Users\\7sea\\AppData\\Local\\Temp\\tmp1vakl4uu']
+2025-03-22 19:24:05,192 - INFO - LibreOffice output: convert C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\1.pptx as a Impress document -> C:\Users\7sea\AppData\Local\Temp\tmp1vakl4uu\1.pdf using filter : impress_pdf_Export
+
+2025-03-22 19:24:09,735 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.129.132.106:8080
+2025-03-22 19:24:09,736 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-22 19:24:09,737 - INFO -  * Restarting with stat
+2025-03-22 19:24:09,997 - WARNING -  * Debugger is active!
+2025-03-22 19:24:10,001 - INFO -  * Debugger PIN: 839-379-047
+2025-03-22 19:24:10,719 - INFO - 127.0.0.1 - - [22/Mar/2025 19:24:10] "GET / HTTP/1.1" 200 -
+2025-03-22 19:24:20,936 - INFO - 127.0.0.1 - - [22/Mar/2025 19:24:20] "GET / HTTP/1.1" 200 -
+2025-03-22 19:47:56,951 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.129.132.106:8080
+2025-03-22 19:47:56,952 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-22 19:47:56,953 - INFO -  * Restarting with stat
+2025-03-22 19:47:57,234 - WARNING -  * Debugger is active!
+2025-03-22 19:47:57,237 - INFO -  * Debugger PIN: 839-379-047
+2025-03-22 19:48:02,760 - INFO - 127.0.0.1 - - [22/Mar/2025 19:48:02] "GET / HTTP/1.1" 200 -
+2025-03-22 19:48:06,282 - INFO - PPT path: C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\1.pptx
+2025-03-22 19:48:06,282 - INFO - Running command to convert PPT to PDF: ['C:\\Program Files\\LibreOffice\\program\\soffice.exe', '--headless', '--convert-to', 'pdf', 'C:\\Users\\7sea\\OneDrive\\Data\\Runningdata\\DSapp\\ztcppt\\uploads\\1.pptx', '--outdir', 'C:\\Users\\7sea\\AppData\\Local\\Temp\\tmp3jec9l4x']
+2025-03-22 19:48:09,753 - INFO - LibreOffice output: convert C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\1.pptx as a Impress document -> C:\Users\7sea\AppData\Local\Temp\tmp3jec9l4x\1.pdf using filter : impress_pdf_Export
+
+2025-03-22 19:48:13,516 - INFO - Saved slide 1 to static/slides\3839a700-01e2-4347-b7a8-7963066a3992\slide_1.png
+2025-03-22 19:48:13,639 - INFO - Saved slide 2 to static/slides\3839a700-01e2-4347-b7a8-7963066a3992\slide_2.png
+2025-03-22 19:48:13,764 - INFO - Saved slide 3 to static/slides\3839a700-01e2-4347-b7a8-7963066a3992\slide_3.png
+2025-03-22 19:48:13,910 - INFO - Saved slide 4 to static/slides\3839a700-01e2-4347-b7a8-7963066a3992\slide_4.png
+2025-03-22 19:48:14,020 - INFO - Saved slide 5 to static/slides\3839a700-01e2-4347-b7a8-7963066a3992\slide_5.png
+2025-03-22 19:48:14,127 - INFO - Saved slide 6 to static/slides\3839a700-01e2-4347-b7a8-7963066a3992\slide_6.png
+2025-03-22 19:48:14,250 - INFO - Saved slide 7 to static/slides\3839a700-01e2-4347-b7a8-7963066a3992\slide_7.png
+2025-03-22 19:48:14,364 - INFO - Saved slide 8 to static/slides\3839a700-01e2-4347-b7a8-7963066a3992\slide_8.png
+2025-03-22 19:48:14,482 - INFO - Saved slide 9 to static/slides\3839a700-01e2-4347-b7a8-7963066a3992\slide_9.png
+2025-03-22 19:48:14,601 - INFO - Saved slide 10 to static/slides\3839a700-01e2-4347-b7a8-7963066a3992\slide_10.png
+2025-03-22 19:48:14,737 - INFO - Saved slide 11 to static/slides\3839a700-01e2-4347-b7a8-7963066a3992\slide_11.png
+2025-03-22 19:48:14,919 - INFO - Saved slide 12 to static/slides\3839a700-01e2-4347-b7a8-7963066a3992\slide_12.png
+2025-03-22 19:48:15,028 - INFO - Saved slide 13 to static/slides\3839a700-01e2-4347-b7a8-7963066a3992\slide_13.png
+2025-03-22 19:48:15,132 - INFO - Saved slide 14 to static/slides\3839a700-01e2-4347-b7a8-7963066a3992\slide_14.png
+2025-03-22 19:48:15,263 - INFO - Saved slide 15 to static/slides\3839a700-01e2-4347-b7a8-7963066a3992\slide_15.png
+2025-03-22 19:48:15,367 - INFO - Saved slide 16 to static/slides\3839a700-01e2-4347-b7a8-7963066a3992\slide_16.png
+2025-03-22 19:48:15,494 - INFO - Saved slide 17 to static/slides\3839a700-01e2-4347-b7a8-7963066a3992\slide_17.png
+2025-03-22 19:48:15,628 - INFO - Saved slide 18 to static/slides\3839a700-01e2-4347-b7a8-7963066a3992\slide_18.png
+2025-03-22 19:48:15,817 - INFO - Saved slide 19 to static/slides\3839a700-01e2-4347-b7a8-7963066a3992\slide_19.png
+2025-03-22 19:48:15,817 - INFO - Converted C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\1.pptx to 19 images
+2025-03-22 19:48:15,828 - INFO - 127.0.0.1 - - [22/Mar/2025 19:48:15] "POST / HTTP/1.1" 200 -
+2025-03-22 19:48:15,892 - INFO - 127.0.0.1 - - [22/Mar/2025 19:48:15] "GET /static/slides/3839a700-01e2-4347-b7a8-7963066a3992/slide_1.png HTTP/1.1" 200 -
+2025-03-22 19:53:07,129 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.129.132.106:8080
+2025-03-22 19:53:07,130 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-22 19:53:07,131 - INFO -  * Restarting with stat
+2025-03-22 19:53:07,396 - WARNING -  * Debugger is active!
+2025-03-22 19:53:07,400 - INFO -  * Debugger PIN: 839-379-047
+2025-03-22 19:53:08,834 - INFO - 127.0.0.1 - - [22/Mar/2025 19:53:08] "GET / HTTP/1.1" 200 -
+2025-03-22 19:53:14,126 - INFO - PPT path: C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\1.pptx
+2025-03-22 19:53:14,126 - INFO - Running command to convert PPT to PDF: ['C:\\Program Files\\LibreOffice\\program\\soffice.exe', '--headless', '--convert-to', 'pdf', 'C:\\Users\\7sea\\OneDrive\\Data\\Runningdata\\DSapp\\ztcppt\\uploads\\1.pptx', '--outdir', 'C:\\Users\\7sea\\AppData\\Local\\Temp\\tmpuwzmkqkk']
+2025-03-22 19:53:17,494 - INFO - LibreOffice output: convert C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\1.pptx as a Impress document -> C:\Users\7sea\AppData\Local\Temp\tmpuwzmkqkk\1.pdf using filter : impress_pdf_Export
+
+2025-03-22 19:53:21,235 - INFO - Saved slide 1 to static/slides\bc54a00d-86bf-40cd-b806-a895988007f5\slide_1.png
+2025-03-22 19:53:21,362 - INFO - Saved slide 2 to static/slides\bc54a00d-86bf-40cd-b806-a895988007f5\slide_2.png
+2025-03-22 19:53:21,489 - INFO - Saved slide 3 to static/slides\bc54a00d-86bf-40cd-b806-a895988007f5\slide_3.png
+2025-03-22 19:53:21,634 - INFO - Saved slide 4 to static/slides\bc54a00d-86bf-40cd-b806-a895988007f5\slide_4.png
+2025-03-22 19:53:21,744 - INFO - Saved slide 5 to static/slides\bc54a00d-86bf-40cd-b806-a895988007f5\slide_5.png
+2025-03-22 19:53:21,854 - INFO - Saved slide 6 to static/slides\bc54a00d-86bf-40cd-b806-a895988007f5\slide_6.png
+2025-03-22 19:53:21,977 - INFO - Saved slide 7 to static/slides\bc54a00d-86bf-40cd-b806-a895988007f5\slide_7.png
+2025-03-22 19:53:22,090 - INFO - Saved slide 8 to static/slides\bc54a00d-86bf-40cd-b806-a895988007f5\slide_8.png
+2025-03-22 19:53:22,212 - INFO - Saved slide 9 to static/slides\bc54a00d-86bf-40cd-b806-a895988007f5\slide_9.png
+2025-03-22 19:53:22,332 - INFO - Saved slide 10 to static/slides\bc54a00d-86bf-40cd-b806-a895988007f5\slide_10.png
+2025-03-22 19:53:22,469 - INFO - Saved slide 11 to static/slides\bc54a00d-86bf-40cd-b806-a895988007f5\slide_11.png
+2025-03-22 19:53:22,654 - INFO - Saved slide 12 to static/slides\bc54a00d-86bf-40cd-b806-a895988007f5\slide_12.png
+2025-03-22 19:53:22,765 - INFO - Saved slide 13 to static/slides\bc54a00d-86bf-40cd-b806-a895988007f5\slide_13.png
+2025-03-22 19:53:22,868 - INFO - Saved slide 14 to static/slides\bc54a00d-86bf-40cd-b806-a895988007f5\slide_14.png
+2025-03-22 19:53:23,001 - INFO - Saved slide 15 to static/slides\bc54a00d-86bf-40cd-b806-a895988007f5\slide_15.png
+2025-03-22 19:53:23,106 - INFO - Saved slide 16 to static/slides\bc54a00d-86bf-40cd-b806-a895988007f5\slide_16.png
+2025-03-22 19:53:23,234 - INFO - Saved slide 17 to static/slides\bc54a00d-86bf-40cd-b806-a895988007f5\slide_17.png
+2025-03-22 19:53:23,371 - INFO - Saved slide 18 to static/slides\bc54a00d-86bf-40cd-b806-a895988007f5\slide_18.png
+2025-03-22 19:53:23,561 - INFO - Saved slide 19 to static/slides\bc54a00d-86bf-40cd-b806-a895988007f5\slide_19.png
+2025-03-22 19:53:23,562 - INFO - Converted C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\1.pptx to 19 images
+2025-03-22 19:53:23,572 - INFO - 127.0.0.1 - - [22/Mar/2025 19:53:23] "POST / HTTP/1.1" 200 -
+2025-03-22 19:53:23,635 - INFO - 127.0.0.1 - - [22/Mar/2025 19:53:23] "GET /static/slides/bc54a00d-86bf-40cd-b806-a895988007f5/slide_1.png HTTP/1.1" 200 -
+2025-03-22 19:54:29,293 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.129.132.106:8080
+2025-03-22 19:54:29,293 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-22 19:54:29,294 - INFO -  * Restarting with stat
+2025-03-22 19:54:29,564 - WARNING -  * Debugger is active!
+2025-03-22 19:54:29,568 - INFO -  * Debugger PIN: 839-379-047
+2025-03-22 19:54:30,685 - INFO - 127.0.0.1 - - [22/Mar/2025 19:54:30] "GET / HTTP/1.1" 200 -
+2025-03-22 19:54:34,979 - INFO - PPT path: C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\1.pptx
+2025-03-22 19:54:34,979 - INFO - Running command to convert PPT to PDF: ['C:\\Program Files\\LibreOffice\\program\\soffice.exe', '--headless', '--convert-to', 'pdf', 'C:\\Users\\7sea\\OneDrive\\Data\\Runningdata\\DSapp\\ztcppt\\uploads\\1.pptx', '--outdir', 'C:\\Users\\7sea\\AppData\\Local\\Temp\\tmpm8ytw6fl']
+2025-03-22 19:54:38,287 - INFO - LibreOffice output: convert C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\1.pptx as a Impress document -> C:\Users\7sea\AppData\Local\Temp\tmpm8ytw6fl\1.pdf using filter : impress_pdf_Export
+
+2025-03-22 19:54:42,042 - INFO - Saved slide 1 to static/slides\f51f9523-c5c4-40ee-ada3-1f42731ce87a\slide_1.png
+2025-03-22 19:54:42,166 - INFO - Saved slide 2 to static/slides\f51f9523-c5c4-40ee-ada3-1f42731ce87a\slide_2.png
+2025-03-22 19:54:42,294 - INFO - Saved slide 3 to static/slides\f51f9523-c5c4-40ee-ada3-1f42731ce87a\slide_3.png
+2025-03-22 19:54:42,444 - INFO - Saved slide 4 to static/slides\f51f9523-c5c4-40ee-ada3-1f42731ce87a\slide_4.png
+2025-03-22 19:54:42,553 - INFO - Saved slide 5 to static/slides\f51f9523-c5c4-40ee-ada3-1f42731ce87a\slide_5.png
+2025-03-22 19:54:42,660 - INFO - Saved slide 6 to static/slides\f51f9523-c5c4-40ee-ada3-1f42731ce87a\slide_6.png
+2025-03-22 19:54:42,785 - INFO - Saved slide 7 to static/slides\f51f9523-c5c4-40ee-ada3-1f42731ce87a\slide_7.png
+2025-03-22 19:54:42,895 - INFO - Saved slide 8 to static/slides\f51f9523-c5c4-40ee-ada3-1f42731ce87a\slide_8.png
+2025-03-22 19:54:43,016 - INFO - Saved slide 9 to static/slides\f51f9523-c5c4-40ee-ada3-1f42731ce87a\slide_9.png
+2025-03-22 19:54:43,138 - INFO - Saved slide 10 to static/slides\f51f9523-c5c4-40ee-ada3-1f42731ce87a\slide_10.png
+2025-03-22 19:54:43,273 - INFO - Saved slide 11 to static/slides\f51f9523-c5c4-40ee-ada3-1f42731ce87a\slide_11.png
+2025-03-22 19:54:43,458 - INFO - Saved slide 12 to static/slides\f51f9523-c5c4-40ee-ada3-1f42731ce87a\slide_12.png
+2025-03-22 19:54:43,566 - INFO - Saved slide 13 to static/slides\f51f9523-c5c4-40ee-ada3-1f42731ce87a\slide_13.png
+2025-03-22 19:54:43,670 - INFO - Saved slide 14 to static/slides\f51f9523-c5c4-40ee-ada3-1f42731ce87a\slide_14.png
+2025-03-22 19:54:43,802 - INFO - Saved slide 15 to static/slides\f51f9523-c5c4-40ee-ada3-1f42731ce87a\slide_15.png
+2025-03-22 19:54:43,904 - INFO - Saved slide 16 to static/slides\f51f9523-c5c4-40ee-ada3-1f42731ce87a\slide_16.png
+2025-03-22 19:54:44,035 - INFO - Saved slide 17 to static/slides\f51f9523-c5c4-40ee-ada3-1f42731ce87a\slide_17.png
+2025-03-22 19:54:44,167 - INFO - Saved slide 18 to static/slides\f51f9523-c5c4-40ee-ada3-1f42731ce87a\slide_18.png
+2025-03-22 19:54:44,360 - INFO - Saved slide 19 to static/slides\f51f9523-c5c4-40ee-ada3-1f42731ce87a\slide_19.png
+2025-03-22 19:54:44,361 - INFO - Converted C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\1.pptx to 19 images
+2025-03-22 19:54:44,372 - INFO - 127.0.0.1 - - [22/Mar/2025 19:54:44] "POST / HTTP/1.1" 200 -
+2025-03-22 19:54:44,432 - INFO - 127.0.0.1 - - [22/Mar/2025 19:54:44] "GET /static/slides/f51f9523-c5c4-40ee-ada3-1f42731ce87a/slide_1.png HTTP/1.1" 200 -
+2025-03-22 20:02:01,229 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.129.132.106:8080
+2025-03-22 20:02:01,229 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-22 20:02:01,231 - INFO -  * Restarting with stat
+2025-03-22 20:02:01,506 - WARNING -  * Debugger is active!
+2025-03-22 20:02:01,510 - INFO -  * Debugger PIN: 839-379-047
+2025-03-22 20:02:02,616 - INFO - 127.0.0.1 - - [22/Mar/2025 20:02:02] "GET / HTTP/1.1" 200 -
+2025-03-22 20:07:23,570 - INFO -  * Detected change in 'c:\\Users\\7sea\\OneDrive\\Data\\Runningdata\\DSapp\\ztcppt\\app.py', reloading
+2025-03-22 20:07:23,598 - INFO -  * Restarting with stat
+2025-03-22 20:07:23,866 - WARNING -  * Debugger is active!
+2025-03-22 20:07:23,870 - INFO -  * Debugger PIN: 839-379-047
+2025-03-22 20:07:26,414 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.129.132.106:8080
+2025-03-22 20:07:26,415 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-22 20:07:26,416 - INFO -  * Restarting with stat
+2025-03-22 20:07:26,684 - WARNING -  * Debugger is active!
+2025-03-22 20:07:26,686 - INFO -  * Debugger PIN: 839-379-047
+2025-03-22 20:07:27,472 - INFO - 127.0.0.1 - - [22/Mar/2025 20:07:27] "GET / HTTP/1.1" 200 -
+2025-03-22 20:07:49,729 - INFO - PPT path: C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\1.pptx
+2025-03-22 20:07:49,730 - INFO - Running command to convert PPT to PDF: ['C:\\Program Files\\LibreOffice\\program\\soffice.exe', '--headless', '--convert-to', 'pdf', 'C:\\Users\\7sea\\OneDrive\\Data\\Runningdata\\DSapp\\ztcppt\\uploads\\1.pptx', '--outdir', 'C:\\Users\\7sea\\AppData\\Local\\Temp\\tmp0ney9wv9']
+2025-03-22 20:07:57,922 - INFO - LibreOffice output: convert C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\1.pptx as a Impress document -> C:\Users\7sea\AppData\Local\Temp\tmp0ney9wv9\1.pdf using filter : impress_pdf_Export
+
+2025-03-22 20:08:01,721 - INFO - Saved slide 1 to static/slides\bb306add-c348-4c1a-ac35-975223a91878\slide_1.png
+2025-03-22 20:08:01,851 - INFO - Saved slide 2 to static/slides\bb306add-c348-4c1a-ac35-975223a91878\slide_2.png
+2025-03-22 20:08:01,984 - INFO - Saved slide 3 to static/slides\bb306add-c348-4c1a-ac35-975223a91878\slide_3.png
+2025-03-22 20:08:02,135 - INFO - Saved slide 4 to static/slides\bb306add-c348-4c1a-ac35-975223a91878\slide_4.png
+2025-03-22 20:08:02,253 - INFO - Saved slide 5 to static/slides\bb306add-c348-4c1a-ac35-975223a91878\slide_5.png
+2025-03-22 20:08:02,362 - INFO - Saved slide 6 to static/slides\bb306add-c348-4c1a-ac35-975223a91878\slide_6.png
+2025-03-22 20:08:02,491 - INFO - Saved slide 7 to static/slides\bb306add-c348-4c1a-ac35-975223a91878\slide_7.png
+2025-03-22 20:08:02,603 - INFO - Saved slide 8 to static/slides\bb306add-c348-4c1a-ac35-975223a91878\slide_8.png
+2025-03-22 20:08:02,727 - INFO - Saved slide 9 to static/slides\bb306add-c348-4c1a-ac35-975223a91878\slide_9.png
+2025-03-22 20:08:02,846 - INFO - Saved slide 10 to static/slides\bb306add-c348-4c1a-ac35-975223a91878\slide_10.png
+2025-03-22 20:08:02,986 - INFO - Saved slide 11 to static/slides\bb306add-c348-4c1a-ac35-975223a91878\slide_11.png
+2025-03-22 20:08:03,173 - INFO - Saved slide 12 to static/slides\bb306add-c348-4c1a-ac35-975223a91878\slide_12.png
+2025-03-22 20:08:03,294 - INFO - Saved slide 13 to static/slides\bb306add-c348-4c1a-ac35-975223a91878\slide_13.png
+2025-03-22 20:08:03,401 - INFO - Saved slide 14 to static/slides\bb306add-c348-4c1a-ac35-975223a91878\slide_14.png
+2025-03-22 20:08:03,542 - INFO - Saved slide 15 to static/slides\bb306add-c348-4c1a-ac35-975223a91878\slide_15.png
+2025-03-22 20:08:03,648 - INFO - Saved slide 16 to static/slides\bb306add-c348-4c1a-ac35-975223a91878\slide_16.png
+2025-03-22 20:08:03,781 - INFO - Saved slide 17 to static/slides\bb306add-c348-4c1a-ac35-975223a91878\slide_17.png
+2025-03-22 20:08:03,913 - INFO - Saved slide 18 to static/slides\bb306add-c348-4c1a-ac35-975223a91878\slide_18.png
+2025-03-22 20:08:04,113 - INFO - Saved slide 19 to static/slides\bb306add-c348-4c1a-ac35-975223a91878\slide_19.png
+2025-03-22 20:08:04,113 - INFO - Converted C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\1.pptx to 19 images
+2025-03-22 20:08:04,125 - INFO - 127.0.0.1 - - [22/Mar/2025 20:08:04] "POST / HTTP/1.1" 200 -
+2025-03-22 20:08:04,201 - INFO - 127.0.0.1 - - [22/Mar/2025 20:08:04] "GET /static/slides/bb306add-c348-4c1a-ac35-975223a91878/slide_1.png HTTP/1.1" 200 -
+2025-03-22 20:32:01,055 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.129.132.106:8080
+2025-03-22 20:32:01,056 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-22 20:32:01,057 - INFO -  * Restarting with stat
+2025-03-22 20:32:01,332 - WARNING -  * Debugger is active!
+2025-03-22 20:32:01,335 - INFO -  * Debugger PIN: 839-379-047
+2025-03-22 20:32:02,759 - INFO - 127.0.0.1 - - [22/Mar/2025 20:32:02] "GET / HTTP/1.1" 200 -
+2025-03-22 20:32:22,379 - INFO - 127.0.0.1 - - [22/Mar/2025 20:32:22] "GET / HTTP/1.1" 200 -
+2025-03-22 20:32:25,184 - INFO - 127.0.0.1 - - [22/Mar/2025 20:32:25] "GET / HTTP/1.1" 200 -
+2025-03-22 20:32:25,895 - INFO - 127.0.0.1 - - [22/Mar/2025 20:32:25] "GET / HTTP/1.1" 200 -
+2025-03-22 20:32:26,291 - INFO - 127.0.0.1 - - [22/Mar/2025 20:32:26] "GET / HTTP/1.1" 200 -
+2025-03-22 20:32:26,470 - INFO - 127.0.0.1 - - [22/Mar/2025 20:32:26] "GET / HTTP/1.1" 200 -
+2025-03-22 20:32:26,641 - INFO - 127.0.0.1 - - [22/Mar/2025 20:32:26] "GET / HTTP/1.1" 200 -
+2025-03-22 20:32:43,052 - INFO - 127.0.0.1 - - [22/Mar/2025 20:32:43] "GET / HTTP/1.1" 200 -
+2025-03-22 20:32:43,244 - INFO - 127.0.0.1 - - [22/Mar/2025 20:32:43] "GET / HTTP/1.1" 200 -
+2025-03-22 20:32:43,529 - INFO - 127.0.0.1 - - [22/Mar/2025 20:32:43] "GET / HTTP/1.1" 200 -
+2025-03-22 20:32:43,688 - INFO - 127.0.0.1 - - [22/Mar/2025 20:32:43] "GET / HTTP/1.1" 200 -
+2025-03-22 20:32:43,850 - INFO - 127.0.0.1 - - [22/Mar/2025 20:32:43] "GET / HTTP/1.1" 200 -
+2025-03-22 20:35:32,789 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.129.132.106:8080
+2025-03-22 20:35:32,789 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-22 20:35:32,790 - INFO -  * Restarting with stat
+2025-03-22 20:35:33,082 - WARNING -  * Debugger is active!
+2025-03-22 20:35:33,085 - INFO -  * Debugger PIN: 839-379-047
+2025-03-22 20:35:33,864 - INFO - 127.0.0.1 - - [22/Mar/2025 20:35:33] "GET / HTTP/1.1" 200 -
+2025-03-22 20:39:05,439 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.129.132.106:8080
+2025-03-22 20:39:05,439 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-22 20:39:05,441 - INFO -  * Restarting with stat
+2025-03-22 20:39:05,715 - WARNING -  * Debugger is active!
+2025-03-22 20:39:05,719 - INFO -  * Debugger PIN: 839-379-047
+2025-03-22 20:39:06,259 - INFO - 127.0.0.1 - - [22/Mar/2025 20:39:06] "GET / HTTP/1.1" 200 -
+2025-03-22 20:54:28,112 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.129.132.106:8080
+2025-03-22 20:54:28,113 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-22 20:54:28,113 - INFO -  * Restarting with stat
+2025-03-22 20:54:28,414 - WARNING -  * Debugger is active!
+2025-03-22 20:54:28,417 - INFO -  * Debugger PIN: 839-379-047
+2025-03-22 20:54:29,636 - INFO - 127.0.0.1 - - [22/Mar/2025 20:54:29] "GET / HTTP/1.1" 200 -
+2025-03-22 21:00:05,925 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.129.132.106:8080
+2025-03-22 21:00:05,925 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-22 21:00:05,926 - INFO -  * Restarting with stat
+2025-03-22 21:00:06,188 - WARNING -  * Debugger is active!
+2025-03-22 21:00:06,192 - INFO -  * Debugger PIN: 839-379-047
+2025-03-22 21:00:07,296 - INFO - 127.0.0.1 - - [22/Mar/2025 21:00:07] "GET / HTTP/1.1" 200 -
+2025-03-22 21:02:16,401 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.129.132.106:8080
+2025-03-22 21:02:16,401 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-22 21:02:16,404 - INFO -  * Restarting with stat
+2025-03-22 21:02:16,669 - WARNING -  * Debugger is active!
+2025-03-22 21:02:16,673 - INFO -  * Debugger PIN: 839-379-047
+2025-03-22 21:02:17,471 - INFO - 127.0.0.1 - - [22/Mar/2025 21:02:17] "GET / HTTP/1.1" 200 -
+2025-03-22 21:02:29,983 - INFO - PPT path: C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\1.pptx
+2025-03-22 21:02:29,983 - INFO - Running command to convert PPT to PDF: ['C:\\Program Files\\LibreOffice\\program\\soffice.exe', '--headless', '--convert-to', 'pdf', 'C:\\Users\\7sea\\OneDrive\\Data\\Runningdata\\DSapp\\ztcppt\\uploads\\1.pptx', '--outdir', 'C:\\Users\\7sea\\AppData\\Local\\Temp\\tmpcj_64pk9']
+2025-03-22 21:02:33,653 - INFO - LibreOffice output: convert C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\1.pptx as a Impress document -> C:\Users\7sea\AppData\Local\Temp\tmpcj_64pk9\1.pdf using filter : impress_pdf_Export
+
+2025-03-22 21:02:37,477 - INFO - Saved slide 1 to static/slides\ced04788-7edd-401d-a61f-5254133b1c6e\slide_1.png
+2025-03-22 21:02:37,605 - INFO - Saved slide 2 to static/slides\ced04788-7edd-401d-a61f-5254133b1c6e\slide_2.png
+2025-03-22 21:02:37,730 - INFO - Saved slide 3 to static/slides\ced04788-7edd-401d-a61f-5254133b1c6e\slide_3.png
+2025-03-22 21:02:37,878 - INFO - Saved slide 4 to static/slides\ced04788-7edd-401d-a61f-5254133b1c6e\slide_4.png
+2025-03-22 21:02:37,986 - INFO - Saved slide 5 to static/slides\ced04788-7edd-401d-a61f-5254133b1c6e\slide_5.png
+2025-03-22 21:02:38,111 - INFO - Saved slide 6 to static/slides\ced04788-7edd-401d-a61f-5254133b1c6e\slide_6.png
+2025-03-22 21:02:38,249 - INFO - Saved slide 7 to static/slides\ced04788-7edd-401d-a61f-5254133b1c6e\slide_7.png
+2025-03-22 21:02:38,376 - INFO - Saved slide 8 to static/slides\ced04788-7edd-401d-a61f-5254133b1c6e\slide_8.png
+2025-03-22 21:02:38,496 - INFO - Saved slide 9 to static/slides\ced04788-7edd-401d-a61f-5254133b1c6e\slide_9.png
+2025-03-22 21:02:38,623 - INFO - Saved slide 10 to static/slides\ced04788-7edd-401d-a61f-5254133b1c6e\slide_10.png
+2025-03-22 21:02:38,775 - INFO - Saved slide 11 to static/slides\ced04788-7edd-401d-a61f-5254133b1c6e\slide_11.png
+2025-03-22 21:02:38,961 - INFO - Saved slide 12 to static/slides\ced04788-7edd-401d-a61f-5254133b1c6e\slide_12.png
+2025-03-22 21:02:39,071 - INFO - Saved slide 13 to static/slides\ced04788-7edd-401d-a61f-5254133b1c6e\slide_13.png
+2025-03-22 21:02:39,182 - INFO - Saved slide 14 to static/slides\ced04788-7edd-401d-a61f-5254133b1c6e\slide_14.png
+2025-03-22 21:02:39,325 - INFO - Saved slide 15 to static/slides\ced04788-7edd-401d-a61f-5254133b1c6e\slide_15.png
+2025-03-22 21:02:39,426 - INFO - Saved slide 16 to static/slides\ced04788-7edd-401d-a61f-5254133b1c6e\slide_16.png
+2025-03-22 21:02:39,555 - INFO - Saved slide 17 to static/slides\ced04788-7edd-401d-a61f-5254133b1c6e\slide_17.png
+2025-03-22 21:02:39,689 - INFO - Saved slide 18 to static/slides\ced04788-7edd-401d-a61f-5254133b1c6e\slide_18.png
+2025-03-22 21:02:39,911 - INFO - Saved slide 19 to static/slides\ced04788-7edd-401d-a61f-5254133b1c6e\slide_19.png
+2025-03-22 21:02:39,911 - INFO - Converted C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\1.pptx to 19 images
+2025-03-22 21:02:39,923 - INFO - 127.0.0.1 - - [22/Mar/2025 21:02:39] "POST / HTTP/1.1" 200 -
+2025-03-22 21:02:39,998 - INFO - 127.0.0.1 - - [22/Mar/2025 21:02:39] "GET /static/slides/ced04788-7edd-401d-a61f-5254133b1c6e/slide_1.png HTTP/1.1" 200 -
+2025-03-22 21:02:56,720 - INFO - Â¼ÒôÎÄ¼þ±£´æÖÁ: uploads\audio\29281c82-e441-467f-9409-902318c370e0_recording.wav
+2025-03-22 21:02:56,722 - INFO - 127.0.0.1 - - [22/Mar/2025 21:02:56] "POST /upload_audio HTTP/1.1" 200 -
+2025-03-22 21:07:07,270 - INFO - Â¼ÒôÎÄ¼þ±£´æÖÁ: uploads\audio\1db60c3e-b02d-4de8-95bc-e81947316475_recording.wav
+2025-03-22 21:07:07,271 - INFO - 127.0.0.1 - - [22/Mar/2025 21:07:07] "POST /upload_audio HTTP/1.1" 200 -
+2025-03-22 22:51:52,197 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.129.132.106:8080
+2025-03-22 22:51:52,198 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-22 22:51:52,199 - INFO -  * Restarting with stat
+2025-03-22 22:51:52,459 - WARNING -  * Debugger is active!
+2025-03-22 22:51:52,463 - INFO -  * Debugger PIN: 839-379-047
+2025-03-22 22:51:53,862 - INFO - 127.0.0.1 - - [22/Mar/2025 22:51:53] "GET / HTTP/1.1" 200 -
+2025-03-22 22:58:16,892 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.129.132.106:8080
+2025-03-22 22:58:16,892 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-22 22:58:16,894 - INFO -  * Restarting with stat
+2025-03-22 22:58:17,161 - WARNING -  * Debugger is active!
+2025-03-22 22:58:17,164 - INFO -  * Debugger PIN: 839-379-047
+2025-03-22 22:58:19,185 - INFO - 127.0.0.1 - - [22/Mar/2025 22:58:19] "GET / HTTP/1.1" 200 -
+2025-03-22 22:58:28,148 - INFO - Saved PDF page 1 to static/slides\93dda78b-2e0b-4b62-9763-015973a0bb7f\slide_1.png
+2025-03-22 22:58:28,278 - INFO - Saved PDF page 2 to static/slides\93dda78b-2e0b-4b62-9763-015973a0bb7f\slide_2.png
+2025-03-22 22:58:28,405 - INFO - Saved PDF page 3 to static/slides\93dda78b-2e0b-4b62-9763-015973a0bb7f\slide_3.png
+2025-03-22 22:58:28,538 - INFO - Saved PDF page 4 to static/slides\93dda78b-2e0b-4b62-9763-015973a0bb7f\slide_4.png
+2025-03-22 22:58:28,647 - INFO - Saved PDF page 5 to static/slides\93dda78b-2e0b-4b62-9763-015973a0bb7f\slide_5.png
+2025-03-22 22:58:28,758 - INFO - Saved PDF page 6 to static/slides\93dda78b-2e0b-4b62-9763-015973a0bb7f\slide_6.png
+2025-03-22 22:58:28,875 - INFO - Saved PDF page 7 to static/slides\93dda78b-2e0b-4b62-9763-015973a0bb7f\slide_7.png
+2025-03-22 22:58:28,990 - INFO - Saved PDF page 8 to static/slides\93dda78b-2e0b-4b62-9763-015973a0bb7f\slide_8.png
+2025-03-22 22:58:29,083 - INFO - Saved PDF page 9 to static/slides\93dda78b-2e0b-4b62-9763-015973a0bb7f\slide_9.png
+2025-03-22 22:58:29,192 - INFO - Saved PDF page 10 to static/slides\93dda78b-2e0b-4b62-9763-015973a0bb7f\slide_10.png
+2025-03-22 22:58:29,346 - INFO - Saved PDF page 11 to static/slides\93dda78b-2e0b-4b62-9763-015973a0bb7f\slide_11.png
+2025-03-22 22:58:29,460 - INFO - Saved PDF page 12 to static/slides\93dda78b-2e0b-4b62-9763-015973a0bb7f\slide_12.png
+2025-03-22 22:58:29,572 - INFO - Saved PDF page 13 to static/slides\93dda78b-2e0b-4b62-9763-015973a0bb7f\slide_13.png
+2025-03-22 22:58:29,669 - INFO - Saved PDF page 14 to static/slides\93dda78b-2e0b-4b62-9763-015973a0bb7f\slide_14.png
+2025-03-22 22:58:29,771 - INFO - Saved PDF page 15 to static/slides\93dda78b-2e0b-4b62-9763-015973a0bb7f\slide_15.png
+2025-03-22 22:58:29,873 - INFO - Saved PDF page 16 to static/slides\93dda78b-2e0b-4b62-9763-015973a0bb7f\slide_16.png
+2025-03-22 22:58:29,974 - INFO - Saved PDF page 17 to static/slides\93dda78b-2e0b-4b62-9763-015973a0bb7f\slide_17.png
+2025-03-22 22:58:30,084 - INFO - Saved PDF page 18 to static/slides\93dda78b-2e0b-4b62-9763-015973a0bb7f\slide_18.png
+2025-03-22 22:58:30,214 - INFO - Saved PDF page 19 to static/slides\93dda78b-2e0b-4b62-9763-015973a0bb7f\slide_19.png
+2025-03-22 22:58:30,214 - INFO - Converted uploads\1.pdf to 19 images
+2025-03-22 22:58:30,223 - INFO - 127.0.0.1 - - [22/Mar/2025 22:58:30] "POST / HTTP/1.1" 200 -
+2025-03-22 22:58:30,286 - INFO - 127.0.0.1 - - [22/Mar/2025 22:58:30] "GET /static/slides/93dda78b-2e0b-4b62-9763-015973a0bb7f/slide_1.png HTTP/1.1" 200 -
+2025-03-22 22:58:37,477 - INFO - 127.0.0.1 - - [22/Mar/2025 22:58:37] "POST /save_commentary HTTP/1.1" 200 -
+2025-03-22 22:58:40,438 - INFO - 127.0.0.1 - - [22/Mar/2025 22:58:40] "GET /static/slides/93dda78b-2e0b-4b62-9763-015973a0bb7f/slide_2.png HTTP/1.1" 200 -
+2025-03-22 22:58:46,313 - INFO - 127.0.0.1 - - [22/Mar/2025 22:58:46] "[35m[1mPOST /save_commentary HTTP/1.1[0m" 500 -
+2025-03-22 22:58:49,355 - INFO - 127.0.0.1 - - [22/Mar/2025 22:58:49] "[35m[1mPOST /save_commentary HTTP/1.1[0m" 500 -
+2025-03-22 22:58:52,190 - INFO - 127.0.0.1 - - [22/Mar/2025 22:58:52] "[35m[1mPOST /save_commentary HTTP/1.1[0m" 500 -
+2025-03-22 22:58:54,348 - INFO - 127.0.0.1 - - [22/Mar/2025 22:58:54] "GET /static/slides/93dda78b-2e0b-4b62-9763-015973a0bb7f/slide_3.png HTTP/1.1" 200 -
+2025-03-22 22:58:57,245 - INFO - 127.0.0.1 - - [22/Mar/2025 22:58:57] "[35m[1mPOST /save_commentary HTTP/1.1[0m" 500 -
+2025-03-22 23:00:26,463 - INFO -  * Detected change in 'c:\\Users\\7sea\\OneDrive\\Data\\Runningdata\\DSapp\\ztcppt\\app.py', reloading
+2025-03-22 23:00:26,491 - INFO -  * Restarting with stat
+2025-03-22 23:00:26,754 - WARNING -  * Debugger is active!
+2025-03-22 23:00:26,758 - INFO -  * Debugger PIN: 839-379-047
+2025-03-22 23:00:30,491 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.129.132.106:8080
+2025-03-22 23:00:30,491 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-22 23:00:30,493 - INFO -  * Restarting with stat
+2025-03-22 23:00:30,757 - WARNING -  * Debugger is active!
+2025-03-22 23:00:30,760 - INFO -  * Debugger PIN: 839-379-047
+2025-03-22 23:00:31,645 - INFO - 127.0.0.1 - - [22/Mar/2025 23:00:31] "GET / HTTP/1.1" 200 -
+2025-03-22 23:00:49,044 - INFO - Saved PDF page 1 to static/slides\b6b936dd-1dd2-4c79-b183-a63c1a703565\slide_1.png
+2025-03-22 23:00:49,155 - INFO - Saved PDF page 2 to static/slides\b6b936dd-1dd2-4c79-b183-a63c1a703565\slide_2.png
+2025-03-22 23:00:49,272 - INFO - Saved PDF page 3 to static/slides\b6b936dd-1dd2-4c79-b183-a63c1a703565\slide_3.png
+2025-03-22 23:00:49,406 - INFO - Saved PDF page 4 to static/slides\b6b936dd-1dd2-4c79-b183-a63c1a703565\slide_4.png
+2025-03-22 23:00:49,515 - INFO - Saved PDF page 5 to static/slides\b6b936dd-1dd2-4c79-b183-a63c1a703565\slide_5.png
+2025-03-22 23:00:49,621 - INFO - Saved PDF page 6 to static/slides\b6b936dd-1dd2-4c79-b183-a63c1a703565\slide_6.png
+2025-03-22 23:00:49,735 - INFO - Saved PDF page 7 to static/slides\b6b936dd-1dd2-4c79-b183-a63c1a703565\slide_7.png
+2025-03-22 23:00:49,850 - INFO - Saved PDF page 8 to static/slides\b6b936dd-1dd2-4c79-b183-a63c1a703565\slide_8.png
+2025-03-22 23:00:49,945 - INFO - Saved PDF page 9 to static/slides\b6b936dd-1dd2-4c79-b183-a63c1a703565\slide_9.png
+2025-03-22 23:00:50,052 - INFO - Saved PDF page 10 to static/slides\b6b936dd-1dd2-4c79-b183-a63c1a703565\slide_10.png
+2025-03-22 23:00:50,189 - INFO - Saved PDF page 11 to static/slides\b6b936dd-1dd2-4c79-b183-a63c1a703565\slide_11.png
+2025-03-22 23:00:50,301 - INFO - Saved PDF page 12 to static/slides\b6b936dd-1dd2-4c79-b183-a63c1a703565\slide_12.png
+2025-03-22 23:00:50,426 - INFO - Saved PDF page 13 to static/slides\b6b936dd-1dd2-4c79-b183-a63c1a703565\slide_13.png
+2025-03-22 23:00:50,522 - INFO - Saved PDF page 14 to static/slides\b6b936dd-1dd2-4c79-b183-a63c1a703565\slide_14.png
+2025-03-22 23:00:50,624 - INFO - Saved PDF page 15 to static/slides\b6b936dd-1dd2-4c79-b183-a63c1a703565\slide_15.png
+2025-03-22 23:00:50,722 - INFO - Saved PDF page 16 to static/slides\b6b936dd-1dd2-4c79-b183-a63c1a703565\slide_16.png
+2025-03-22 23:00:50,821 - INFO - Saved PDF page 17 to static/slides\b6b936dd-1dd2-4c79-b183-a63c1a703565\slide_17.png
+2025-03-22 23:00:50,924 - INFO - Saved PDF page 18 to static/slides\b6b936dd-1dd2-4c79-b183-a63c1a703565\slide_18.png
+2025-03-22 23:00:51,049 - INFO - Saved PDF page 19 to static/slides\b6b936dd-1dd2-4c79-b183-a63c1a703565\slide_19.png
+2025-03-22 23:00:51,049 - INFO - Converted uploads\1.pdf to 19 images
+2025-03-22 23:00:51,060 - INFO - 127.0.0.1 - - [22/Mar/2025 23:00:51] "POST / HTTP/1.1" 200 -
+2025-03-22 23:00:51,126 - INFO - 127.0.0.1 - - [22/Mar/2025 23:00:51] "GET /static/slides/b6b936dd-1dd2-4c79-b183-a63c1a703565/slide_1.png HTTP/1.1" 200 -
+2025-03-22 23:01:03,668 - INFO - 127.0.0.1 - - [22/Mar/2025 23:01:03] "POST /save_commentary HTTP/1.1" 200 -
+2025-03-22 23:01:05,404 - INFO - 127.0.0.1 - - [22/Mar/2025 23:01:05] "GET /static/slides/b6b936dd-1dd2-4c79-b183-a63c1a703565/slide_2.png HTTP/1.1" 200 -
+2025-03-22 23:01:08,449 - INFO - 127.0.0.1 - - [22/Mar/2025 23:01:08] "POST /save_commentary HTTP/1.1" 200 -
+2025-03-22 23:01:17,727 - INFO - 127.0.0.1 - - [22/Mar/2025 23:01:17] "POST /save_commentary HTTP/1.1" 200 -
+2025-03-22 23:01:19,274 - INFO - 127.0.0.1 - - [22/Mar/2025 23:01:19] "GET /static/slides/b6b936dd-1dd2-4c79-b183-a63c1a703565/slide_3.png HTTP/1.1" 200 -
+2025-03-22 23:01:23,645 - INFO - 127.0.0.1 - - [22/Mar/2025 23:01:23] "POST /save_commentary HTTP/1.1" 200 -
+2025-03-22 23:01:43,173 - INFO - 127.0.0.1 - - [22/Mar/2025 23:01:43] "[36mGET /static/slides/b6b936dd-1dd2-4c79-b183-a63c1a703565/slide_2.png HTTP/1.1[0m" 304 -
+2025-03-22 23:01:43,325 - INFO - 127.0.0.1 - - [22/Mar/2025 23:01:43] "[36mGET /static/slides/b6b936dd-1dd2-4c79-b183-a63c1a703565/slide_1.png HTTP/1.1[0m" 304 -
+2025-03-22 23:01:51,401 - INFO - 127.0.0.1 - - [22/Mar/2025 23:01:51] "POST /save_commentary HTTP/1.1" 200 -
+2025-03-23 15:36:57,674 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.129.132.106:8080
+2025-03-23 15:36:57,675 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-23 15:36:57,676 - INFO -  * Restarting with stat
+2025-03-23 15:36:57,958 - WARNING -  * Debugger is active!
+2025-03-23 15:36:57,960 - INFO -  * Debugger PIN: 131-861-368
+2025-03-23 15:36:59,177 - INFO - 127.0.0.1 - - [23/Mar/2025 15:36:59] "GET / HTTP/1.1" 200 -
+2025-03-23 15:36:59,599 - INFO - 127.0.0.1 - - [23/Mar/2025 15:36:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-23 15:37:06,163 - INFO - PPT path: C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\1.pptx
+2025-03-23 15:37:06,163 - INFO - Running command to convert PPT to PDF: ['C:\\Program Files\\LibreOffice\\program\\soffice.exe', '--headless', '--convert-to', 'pdf', 'C:\\Users\\7sea\\OneDrive\\Data\\Runningdata\\DSapp\\ztcppt\\uploads\\1.pptx', '--outdir', 'C:\\Users\\7sea\\AppData\\Local\\Temp\\tmpl_8wid0e']
+2025-03-23 15:37:16,201 - INFO - LibreOffice output: convert C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\1.pptx as a Impress document -> C:\Users\7sea\AppData\Local\Temp\tmpl_8wid0e\1.pdf using filter : impress_pdf_Export
+
+2025-03-23 15:37:20,333 - INFO - Saved slide 1 to static/slides\f720e2c2-10f8-42c0-981e-e79267b0ca3f\slide_1.png
+2025-03-23 15:37:20,458 - INFO - Saved slide 2 to static/slides\f720e2c2-10f8-42c0-981e-e79267b0ca3f\slide_2.png
+2025-03-23 15:37:20,611 - INFO - Saved slide 3 to static/slides\f720e2c2-10f8-42c0-981e-e79267b0ca3f\slide_3.png
+2025-03-23 15:37:20,764 - INFO - Saved slide 4 to static/slides\f720e2c2-10f8-42c0-981e-e79267b0ca3f\slide_4.png
+2025-03-23 15:37:20,877 - INFO - Saved slide 5 to static/slides\f720e2c2-10f8-42c0-981e-e79267b0ca3f\slide_5.png
+2025-03-23 15:37:20,989 - INFO - Saved slide 6 to static/slides\f720e2c2-10f8-42c0-981e-e79267b0ca3f\slide_6.png
+2025-03-23 15:37:21,117 - INFO - Saved slide 7 to static/slides\f720e2c2-10f8-42c0-981e-e79267b0ca3f\slide_7.png
+2025-03-23 15:37:21,229 - INFO - Saved slide 8 to static/slides\f720e2c2-10f8-42c0-981e-e79267b0ca3f\slide_8.png
+2025-03-23 15:37:21,343 - INFO - Saved slide 9 to static/slides\f720e2c2-10f8-42c0-981e-e79267b0ca3f\slide_9.png
+2025-03-23 15:37:21,462 - INFO - Saved slide 10 to static/slides\f720e2c2-10f8-42c0-981e-e79267b0ca3f\slide_10.png
+2025-03-23 15:37:21,602 - INFO - Saved slide 11 to static/slides\f720e2c2-10f8-42c0-981e-e79267b0ca3f\slide_11.png
+2025-03-23 15:37:21,793 - INFO - Saved slide 12 to static/slides\f720e2c2-10f8-42c0-981e-e79267b0ca3f\slide_12.png
+2025-03-23 15:37:21,919 - INFO - Saved slide 13 to static/slides\f720e2c2-10f8-42c0-981e-e79267b0ca3f\slide_13.png
+2025-03-23 15:37:22,024 - INFO - Saved slide 14 to static/slides\f720e2c2-10f8-42c0-981e-e79267b0ca3f\slide_14.png
+2025-03-23 15:37:22,158 - INFO - Saved slide 15 to static/slides\f720e2c2-10f8-42c0-981e-e79267b0ca3f\slide_15.png
+2025-03-23 15:37:22,258 - INFO - Saved slide 16 to static/slides\f720e2c2-10f8-42c0-981e-e79267b0ca3f\slide_16.png
+2025-03-23 15:37:22,388 - INFO - Saved slide 17 to static/slides\f720e2c2-10f8-42c0-981e-e79267b0ca3f\slide_17.png
+2025-03-23 15:37:22,541 - INFO - Saved slide 18 to static/slides\f720e2c2-10f8-42c0-981e-e79267b0ca3f\slide_18.png
+2025-03-23 15:37:22,731 - INFO - Saved slide 19 to static/slides\f720e2c2-10f8-42c0-981e-e79267b0ca3f\slide_19.png
+2025-03-23 15:37:22,731 - INFO - Converted C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\1.pptx to 19 images
+2025-03-23 15:37:22,739 - INFO - 127.0.0.1 - - [23/Mar/2025 15:37:22] "POST / HTTP/1.1" 200 -
+2025-03-23 15:37:22,808 - INFO - 127.0.0.1 - - [23/Mar/2025 15:37:22] "GET /static/slides/f720e2c2-10f8-42c0-981e-e79267b0ca3f/slide_1.png HTTP/1.1" 200 -
+2025-03-23 15:38:20,980 - INFO - 127.0.0.1 - - [23/Mar/2025 15:38:20] "GET /static/slides/f720e2c2-10f8-42c0-981e-e79267b0ca3f/slide_2.png HTTP/1.1" 200 -
+2025-03-23 15:38:21,180 - INFO - 127.0.0.1 - - [23/Mar/2025 15:38:21] "GET /static/slides/f720e2c2-10f8-42c0-981e-e79267b0ca3f/slide_3.png HTTP/1.1" 200 -
+2025-03-23 15:38:21,349 - INFO - 127.0.0.1 - - [23/Mar/2025 15:38:21] "GET /static/slides/f720e2c2-10f8-42c0-981e-e79267b0ca3f/slide_4.png HTTP/1.1" 200 -
+2025-03-23 15:38:21,498 - INFO - 127.0.0.1 - - [23/Mar/2025 15:38:21] "GET /static/slides/f720e2c2-10f8-42c0-981e-e79267b0ca3f/slide_5.png HTTP/1.1" 200 -
+2025-03-23 15:38:21,653 - INFO - 127.0.0.1 - - [23/Mar/2025 15:38:21] "GET /static/slides/f720e2c2-10f8-42c0-981e-e79267b0ca3f/slide_6.png HTTP/1.1" 200 -
+2025-03-23 15:38:28,015 - INFO - 127.0.0.1 - - [23/Mar/2025 15:38:28] "POST /save_commentary HTTP/1.1" 200 -
+2025-03-23 15:43:34,351 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.129.132.106:8080
+2025-03-23 15:43:34,351 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-23 15:43:34,353 - INFO -  * Restarting with stat
+2025-03-23 15:43:34,638 - WARNING -  * Debugger is active!
+2025-03-23 15:43:34,643 - INFO -  * Debugger PIN: 131-861-368
+2025-03-23 15:43:36,200 - INFO - 127.0.0.1 - - [23/Mar/2025 15:43:36] "GET / HTTP/1.1" 200 -
+2025-03-23 15:43:41,025 - INFO - 127.0.0.1 - - [23/Mar/2025 15:43:41] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-03-23 15:43:41,110 - INFO - 127.0.0.1 - - [23/Mar/2025 15:43:41] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-03-23 15:43:41,111 - INFO - 127.0.0.1 - - [23/Mar/2025 15:43:41] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-03-23 15:43:41,138 - INFO - 127.0.0.1 - - [23/Mar/2025 15:43:41] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=FntfCnoYhl3tz0DKUTwc HTTP/1.1" 200 -
+2025-03-23 15:43:41,207 - INFO - 127.0.0.1 - - [23/Mar/2025 15:43:41] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-03-23 15:48:35,506 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.129.132.106:8080
+2025-03-23 15:48:35,506 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-23 15:48:35,508 - INFO -  * Restarting with stat
+2025-03-23 15:48:35,773 - WARNING -  * Debugger is active!
+2025-03-23 15:48:35,776 - INFO -  * Debugger PIN: 131-861-368
+2025-03-23 15:48:36,713 - INFO - 127.0.0.1 - - [23/Mar/2025 15:48:36] "GET / HTTP/1.1" 200 -
+2025-03-23 15:48:43,227 - INFO - PPT path: C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\APP.pptx
+2025-03-23 15:48:43,228 - INFO - Running command to convert PPT to PDF: ['C:\\Program Files\\LibreOffice\\program\\soffice.exe', '--headless', '--convert-to', 'pdf', 'C:\\Users\\7sea\\OneDrive\\Data\\Runningdata\\DSapp\\ztcppt\\uploads\\APP.pptx', '--outdir', 'C:\\Users\\7sea\\AppData\\Local\\Temp\\tmpcgc22wu8']
+2025-03-23 15:48:44,537 - INFO - LibreOffice output: convert C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\APP.pptx as a Impress document -> C:\Users\7sea\AppData\Local\Temp\tmpcgc22wu8\APP.pdf using filter : impress_pdf_Export
+
+2025-03-23 15:48:45,481 - INFO - Saved slide 1 to static/slides\65d4c462-00b2-4c38-bcda-5c8e0dfd77d1\slide_1.png
+2025-03-23 15:48:45,543 - INFO - Saved slide 2 to static/slides\65d4c462-00b2-4c38-bcda-5c8e0dfd77d1\slide_2.png
+2025-03-23 15:48:45,543 - INFO - Converted C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\APP.pptx to 2 images
+2025-03-23 15:48:45,545 - INFO - 127.0.0.1 - - [23/Mar/2025 15:48:45] "POST / HTTP/1.1" 200 -
+2025-03-23 15:48:45,580 - INFO - 127.0.0.1 - - [23/Mar/2025 15:48:45] "GET /get_commentary/1 HTTP/1.1" 200 -
+2025-03-23 15:48:45,609 - INFO - 127.0.0.1 - - [23/Mar/2025 15:48:45] "GET /static/slides/65d4c462-00b2-4c38-bcda-5c8e0dfd77d1/slide_1.png HTTP/1.1" 200 -
+2025-03-23 15:48:47,098 - INFO - 127.0.0.1 - - [23/Mar/2025 15:48:47] "GET /get_commentary/2 HTTP/1.1" 200 -
+2025-03-23 15:48:47,103 - INFO - 127.0.0.1 - - [23/Mar/2025 15:48:47] "GET /static/slides/65d4c462-00b2-4c38-bcda-5c8e0dfd77d1/slide_2.png HTTP/1.1" 200 -
+2025-03-23 15:48:47,685 - INFO - 127.0.0.1 - - [23/Mar/2025 15:48:47] "GET /get_commentary/1 HTTP/1.1" 200 -
+2025-03-23 15:48:51,634 - INFO - 127.0.0.1 - - [23/Mar/2025 15:48:51] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-03-23 15:48:51,651 - INFO - 127.0.0.1 - - [23/Mar/2025 15:48:51] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-03-23 15:48:51,653 - INFO - 127.0.0.1 - - [23/Mar/2025 15:48:51] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-03-23 15:48:51,669 - INFO - 127.0.0.1 - - [23/Mar/2025 15:48:51] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=C44OzBPk29lVQ9qxfqhU HTTP/1.1" 200 -
+2025-03-23 15:48:51,762 - INFO - 127.0.0.1 - - [23/Mar/2025 15:48:51] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-03-23 15:49:12,696 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.129.132.106:8080
+2025-03-23 15:49:12,696 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-23 15:49:12,698 - INFO -  * Restarting with stat
+2025-03-23 15:49:13,677 - WARNING -  * Debugger is active!
+2025-03-23 15:49:13,681 - INFO -  * Debugger PIN: 119-870-643
+2025-03-23 15:49:41,982 - INFO - 127.0.0.1 - - [23/Mar/2025 15:49:41] "GET / HTTP/1.1" 200 -
+2025-03-23 15:50:58,451 - INFO - 127.0.0.1 - - [23/Mar/2025 15:50:58] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-03-23 15:50:58,543 - INFO - 127.0.0.1 - - [23/Mar/2025 15:50:58] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-03-23 15:50:58,543 - INFO - 127.0.0.1 - - [23/Mar/2025 15:50:58] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-03-23 15:50:58,573 - INFO - 127.0.0.1 - - [23/Mar/2025 15:50:58] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=cv3B6Lyh6gHWs7zIM3O2 HTTP/1.1" 200 -
+2025-03-23 15:50:58,661 - INFO - 127.0.0.1 - - [23/Mar/2025 15:50:58] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-03-23 15:51:02,537 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.129.132.106:8080
+2025-03-23 15:51:02,537 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-23 15:51:02,538 - INFO -  * Restarting with stat
+2025-03-23 15:51:02,818 - WARNING -  * Debugger is active!
+2025-03-23 15:51:02,821 - INFO -  * Debugger PIN: 131-861-368
+2025-03-23 15:51:06,779 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.129.132.106:8080
+2025-03-23 15:51:06,780 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-23 15:51:06,781 - INFO -  * Restarting with stat
+2025-03-23 15:51:07,774 - WARNING -  * Debugger is active!
+2025-03-23 15:51:07,780 - INFO -  * Debugger PIN: 119-870-643
+2025-03-23 15:53:02,495 - INFO - 127.0.0.1 - - [23/Mar/2025 15:53:02] "GET / HTTP/1.1" 200 -
+2025-03-23 15:54:22,210 - INFO - PPT path: C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\APP.pptx
+2025-03-23 15:54:22,210 - INFO - Running command to convert PPT to PDF: ['C:\\Program Files\\LibreOffice\\program\\soffice.exe', '--headless', '--convert-to', 'pdf', 'C:\\Users\\7sea\\OneDrive\\Data\\Runningdata\\DSapp\\ztcppt\\uploads\\APP.pptx', '--outdir', 'C:\\Users\\7sea\\AppData\\Local\\Temp\\tmpynjaz843']
+2025-03-23 15:54:23,350 - INFO - LibreOffice output: convert C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\APP.pptx as a Impress document -> C:\Users\7sea\AppData\Local\Temp\tmpynjaz843\APP.pdf using filter : impress_pdf_Export
+
+2025-03-23 15:54:24,329 - INFO - Saved slide 1 to static/slides\0ff9b85e-ae4a-4aa7-a46f-d36d282a476c\slide_1.png
+2025-03-23 15:54:24,390 - INFO - Saved slide 2 to static/slides\0ff9b85e-ae4a-4aa7-a46f-d36d282a476c\slide_2.png
+2025-03-23 15:54:24,390 - INFO - Converted C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\APP.pptx to 2 images
+2025-03-23 15:54:24,393 - INFO - 127.0.0.1 - - [23/Mar/2025 15:54:24] "POST / HTTP/1.1" 200 -
+2025-03-23 15:54:24,449 - INFO - 127.0.0.1 - - [23/Mar/2025 15:54:24] "GET /get_commentary/1 HTTP/1.1" 200 -
+2025-03-23 15:54:24,471 - INFO - 127.0.0.1 - - [23/Mar/2025 15:54:24] "GET /static/slides/0ff9b85e-ae4a-4aa7-a46f-d36d282a476c/slide_1.png HTTP/1.1" 200 -
+2025-03-23 16:49:52,556 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.129.132.106:8080
+2025-03-23 16:49:52,556 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-23 16:49:52,558 - INFO -  * Restarting with stat
+2025-03-23 16:49:52,825 - WARNING -  * Debugger is active!
+2025-03-23 16:49:52,828 - INFO -  * Debugger PIN: 131-861-368
+2025-03-23 16:49:54,237 - INFO - 127.0.0.1 - - [23/Mar/2025 16:49:54] "GET / HTTP/1.1" 200 -
+2025-03-23 16:49:57,401 - INFO - PPT path: C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\pptx
+2025-03-23 16:49:57,401 - INFO - Running command to convert PPT to PDF: ['C:\\Program Files\\LibreOffice\\program\\soffice.exe', '--headless', '--convert-to', 'pdf', 'C:\\Users\\7sea\\OneDrive\\Data\\Runningdata\\DSapp\\ztcppt\\uploads\\pptx', '--outdir', 'C:\\Users\\7sea\\AppData\\Local\\Temp\\tmp1kb8hdjc']
+2025-03-23 16:50:04,107 - INFO - LibreOffice output: convert C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\pptx as a Impress document -> C:\Users\7sea\AppData\Local\Temp\tmp1kb8hdjc\pptx.pdf using filter : impress_pdf_Export
+
+2025-03-23 16:50:05,471 - INFO - Saved slide 1 to static/slides\e7a017bf-38ed-49b2-8a56-7064a6323bc0\slide_1.png
+2025-03-23 16:50:05,591 - INFO - Saved slide 2 to static/slides\e7a017bf-38ed-49b2-8a56-7064a6323bc0\slide_2.png
+2025-03-23 16:50:05,714 - INFO - Saved slide 3 to static/slides\e7a017bf-38ed-49b2-8a56-7064a6323bc0\slide_3.png
+2025-03-23 16:50:05,860 - INFO - Saved slide 4 to static/slides\e7a017bf-38ed-49b2-8a56-7064a6323bc0\slide_4.png
+2025-03-23 16:50:05,861 - INFO - Converted C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\pptx to 4 images
+2025-03-23 16:50:05,864 - INFO - 127.0.0.1 - - [23/Mar/2025 16:50:05] "POST / HTTP/1.1" 200 -
+2025-03-23 16:50:05,897 - INFO - 127.0.0.1 - - [23/Mar/2025 16:50:05] "GET /get_commentary/1 HTTP/1.1" 200 -
+2025-03-23 16:50:05,925 - INFO - 127.0.0.1 - - [23/Mar/2025 16:50:05] "GET /static/slides/e7a017bf-38ed-49b2-8a56-7064a6323bc0/slide_1.png HTTP/1.1" 200 -
+2025-03-23 16:50:08,156 - INFO - 127.0.0.1 - - [23/Mar/2025 16:50:08] "GET /get_commentary/2 HTTP/1.1" 200 -
+2025-03-23 16:50:08,162 - INFO - 127.0.0.1 - - [23/Mar/2025 16:50:08] "GET /static/slides/e7a017bf-38ed-49b2-8a56-7064a6323bc0/slide_2.png HTTP/1.1" 200 -
+2025-03-23 16:50:08,869 - INFO - 127.0.0.1 - - [23/Mar/2025 16:50:08] "GET /get_commentary/3 HTTP/1.1" 200 -
+2025-03-23 16:50:08,875 - INFO - 127.0.0.1 - - [23/Mar/2025 16:50:08] "GET /static/slides/e7a017bf-38ed-49b2-8a56-7064a6323bc0/slide_3.png HTTP/1.1" 200 -
+2025-03-23 16:50:09,533 - INFO - 127.0.0.1 - - [23/Mar/2025 16:50:09] "GET /get_commentary/4 HTTP/1.1" 200 -
+2025-03-23 16:50:09,539 - INFO - 127.0.0.1 - - [23/Mar/2025 16:50:09] "GET /static/slides/e7a017bf-38ed-49b2-8a56-7064a6323bc0/slide_4.png HTTP/1.1" 200 -
+2025-03-23 16:50:13,905 - INFO - 127.0.0.1 - - [23/Mar/2025 16:50:13] "GET /get_commentary/3 HTTP/1.1" 200 -
+2025-03-23 16:50:14,247 - INFO - 127.0.0.1 - - [23/Mar/2025 16:50:14] "GET /get_commentary/2 HTTP/1.1" 200 -
+2025-03-23 16:50:14,413 - INFO - 127.0.0.1 - - [23/Mar/2025 16:50:14] "GET /get_commentary/1 HTTP/1.1" 200 -
+2025-03-23 16:50:17,286 - INFO - 127.0.0.1 - - [23/Mar/2025 16:50:17] "GET /get_commentary/2 HTTP/1.1" 200 -
+2025-03-23 16:50:17,774 - INFO - 127.0.0.1 - - [23/Mar/2025 16:50:17] "GET /get_commentary/3 HTTP/1.1" 200 -
+2025-03-23 16:50:18,272 - INFO - 127.0.0.1 - - [23/Mar/2025 16:50:18] "GET /get_commentary/4 HTTP/1.1" 200 -
+2025-03-23 16:50:19,122 - INFO - 127.0.0.1 - - [23/Mar/2025 16:50:19] "GET /get_commentary/3 HTTP/1.1" 200 -
+2025-03-23 16:50:19,279 - INFO - 127.0.0.1 - - [23/Mar/2025 16:50:19] "GET /get_commentary/2 HTTP/1.1" 200 -
+2025-03-23 16:50:19,449 - INFO - 127.0.0.1 - - [23/Mar/2025 16:50:19] "GET /get_commentary/1 HTTP/1.1" 200 -
+2025-03-23 16:50:32,142 - INFO - 127.0.0.1 - - [23/Mar/2025 16:50:32] "POST /save_commentary HTTP/1.1" 200 -
+2025-03-23 16:50:32,942 - INFO - 127.0.0.1 - - [23/Mar/2025 16:50:32] "GET /get_commentary/1 HTTP/1.1" 200 -
+2025-03-23 16:50:33,734 - INFO - 127.0.0.1 - - [23/Mar/2025 16:50:33] "GET /get_commentary/2 HTTP/1.1" 200 -
+2025-03-23 16:50:33,735 - INFO - 127.0.0.1 - - [23/Mar/2025 16:50:33] "[36mGET /static/slides/e7a017bf-38ed-49b2-8a56-7064a6323bc0/slide_2.png HTTP/1.1[0m" 304 -
+2025-03-23 16:50:34,455 - INFO - 127.0.0.1 - - [23/Mar/2025 16:50:34] "GET /get_commentary/3 HTTP/1.1" 200 -
+2025-03-23 16:50:34,456 - INFO - 127.0.0.1 - - [23/Mar/2025 16:50:34] "[36mGET /static/slides/e7a017bf-38ed-49b2-8a56-7064a6323bc0/slide_3.png HTTP/1.1[0m" 304 -
+2025-03-23 16:50:35,569 - INFO - 127.0.0.1 - - [23/Mar/2025 16:50:35] "GET /get_commentary/2 HTTP/1.1" 200 -
+2025-03-23 16:50:35,732 - INFO - 127.0.0.1 - - [23/Mar/2025 16:50:35] "GET /get_commentary/1 HTTP/1.1" 200 -
+2025-03-23 16:50:36,474 - INFO - 127.0.0.1 - - [23/Mar/2025 16:50:36] "GET /get_commentary/2 HTTP/1.1" 200 -
+2025-03-23 16:50:36,659 - INFO - 127.0.0.1 - - [23/Mar/2025 16:50:36] "GET /get_commentary/3 HTTP/1.1" 200 -
+2025-03-23 16:50:36,830 - INFO - 127.0.0.1 - - [23/Mar/2025 16:50:36] "GET /get_commentary/4 HTTP/1.1" 200 -
+2025-03-23 16:50:36,830 - INFO - 127.0.0.1 - - [23/Mar/2025 16:50:36] "[36mGET /static/slides/e7a017bf-38ed-49b2-8a56-7064a6323bc0/slide_4.png HTTP/1.1[0m" 304 -
+2025-03-23 16:50:37,355 - INFO - 127.0.0.1 - - [23/Mar/2025 16:50:37] "GET /get_commentary/3 HTTP/1.1" 200 -
+2025-03-23 16:50:37,510 - INFO - 127.0.0.1 - - [23/Mar/2025 16:50:37] "GET /get_commentary/2 HTTP/1.1" 200 -
+2025-03-23 16:50:37,699 - INFO - 127.0.0.1 - - [23/Mar/2025 16:50:37] "GET /get_commentary/1 HTTP/1.1" 200 -
+2025-03-23 16:50:38,690 - INFO - 127.0.0.1 - - [23/Mar/2025 16:50:38] "GET /get_commentary/2 HTTP/1.1" 200 -
+2025-03-23 16:50:41,325 - INFO - 127.0.0.1 - - [23/Mar/2025 16:50:41] "GET /get_commentary/3 HTTP/1.1" 200 -
+2025-03-23 16:50:42,497 - INFO - 127.0.0.1 - - [23/Mar/2025 16:50:42] "GET /get_commentary/4 HTTP/1.1" 200 -
+2025-03-23 16:50:43,471 - INFO - 127.0.0.1 - - [23/Mar/2025 16:50:43] "GET /get_commentary/3 HTTP/1.1" 200 -
+2025-03-23 16:50:43,640 - INFO - 127.0.0.1 - - [23/Mar/2025 16:50:43] "GET /get_commentary/2 HTTP/1.1" 200 -
+2025-03-23 16:50:44,053 - INFO - 127.0.0.1 - - [23/Mar/2025 16:50:44] "GET /get_commentary/1 HTTP/1.1" 200 -
+2025-03-24 09:12:37,469 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.129.132.106:8080
+2025-03-24 09:12:37,470 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-24 09:12:37,471 - INFO -  * Restarting with stat
+2025-03-24 09:12:37,726 - WARNING -  * Debugger is active!
+2025-03-24 09:12:37,730 - INFO -  * Debugger PIN: 131-861-368
+2025-03-24 09:12:42,865 - INFO - 127.0.0.1 - - [24/Mar/2025 09:12:42] "GET / HTTP/1.1" 200 -
+2025-03-24 09:12:43,222 - INFO - 127.0.0.1 - - [24/Mar/2025 09:12:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-24 09:12:49,962 - INFO - PPT path: C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\bd8bf2ab-5427-4293-b19e-a47638ba8f6e.pptx
+2025-03-24 09:12:49,962 - INFO - Running command to convert PPT to PDF: ['C:\\Program Files\\LibreOffice\\program\\soffice.exe', '--headless', '--convert-to', 'pdf', 'C:\\Users\\7sea\\OneDrive\\Data\\Runningdata\\DSapp\\ztcppt\\uploads\\bd8bf2ab-5427-4293-b19e-a47638ba8f6e.pptx', '--outdir', 'C:\\Users\\7sea\\AppData\\Local\\Temp\\tmp32w4u61x']
+2025-03-24 09:12:57,734 - INFO - LibreOffice output: convert C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\bd8bf2ab-5427-4293-b19e-a47638ba8f6e.pptx as a Impress document -> C:\Users\7sea\AppData\Local\Temp\tmp32w4u61x\bd8bf2ab-5427-4293-b19e-a47638ba8f6e.pdf using filter : impress_pdf_Export
+
+2025-03-24 09:12:59,411 - INFO - Saved slide 1 to static/slides\8e5a0e21-d329-47b8-a858-9f9c3b0a3658\slide_1.png
+2025-03-24 09:12:59,533 - INFO - Saved slide 2 to static/slides\8e5a0e21-d329-47b8-a858-9f9c3b0a3658\slide_2.png
+2025-03-24 09:12:59,659 - INFO - Saved slide 3 to static/slides\8e5a0e21-d329-47b8-a858-9f9c3b0a3658\slide_3.png
+2025-03-24 09:12:59,805 - INFO - Saved slide 4 to static/slides\8e5a0e21-d329-47b8-a858-9f9c3b0a3658\slide_4.png
+2025-03-24 09:12:59,805 - INFO - Converted C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\bd8bf2ab-5427-4293-b19e-a47638ba8f6e.pptx to 4 images
+2025-03-24 09:12:59,808 - INFO - 127.0.0.1 - - [24/Mar/2025 09:12:59] "POST / HTTP/1.1" 200 -
+2025-03-24 09:12:59,842 - INFO - 127.0.0.1 - - [24/Mar/2025 09:12:59] "GET /get_commentary/bd8bf2ab-5427-4293-b19e-a47638ba8f6e/1 HTTP/1.1" 200 -
+2025-03-24 09:12:59,873 - INFO - 127.0.0.1 - - [24/Mar/2025 09:12:59] "GET /static/slides/8e5a0e21-d329-47b8-a858-9f9c3b0a3658/slide_1.png HTTP/1.1" 200 -
+2025-03-24 09:13:08,347 - INFO - 127.0.0.1 - - [24/Mar/2025 09:13:08] "POST /save_commentary HTTP/1.1" 200 -
+2025-03-24 09:13:09,976 - INFO - 127.0.0.1 - - [24/Mar/2025 09:13:09] "GET /get_commentary/bd8bf2ab-5427-4293-b19e-a47638ba8f6e/1 HTTP/1.1" 200 -
+2025-03-24 09:13:11,521 - INFO - 127.0.0.1 - - [24/Mar/2025 09:13:11] "GET /get_commentary/bd8bf2ab-5427-4293-b19e-a47638ba8f6e/2 HTTP/1.1" 200 -
+2025-03-24 09:13:11,526 - INFO - 127.0.0.1 - - [24/Mar/2025 09:13:11] "GET /static/slides/8e5a0e21-d329-47b8-a858-9f9c3b0a3658/slide_2.png HTTP/1.1" 200 -
+2025-03-24 09:13:17,987 - INFO - 127.0.0.1 - - [24/Mar/2025 09:13:17] "POST /save_commentary HTTP/1.1" 200 -
+2025-03-24 09:13:21,169 - INFO - 127.0.0.1 - - [24/Mar/2025 09:13:21] "GET /get_commentary/bd8bf2ab-5427-4293-b19e-a47638ba8f6e/2 HTTP/1.1" 200 -
+2025-03-24 09:13:23,060 - INFO - 127.0.0.1 - - [24/Mar/2025 09:13:23] "GET /get_commentary/bd8bf2ab-5427-4293-b19e-a47638ba8f6e/1 HTTP/1.1" 200 -
+2025-03-24 09:13:23,061 - INFO - 127.0.0.1 - - [24/Mar/2025 09:13:23] "[36mGET /static/slides/8e5a0e21-d329-47b8-a858-9f9c3b0a3658/slide_1.png HTTP/1.1[0m" 304 -
+2025-03-24 09:13:24,617 - INFO - 127.0.0.1 - - [24/Mar/2025 09:13:24] "GET /get_commentary/bd8bf2ab-5427-4293-b19e-a47638ba8f6e/2 HTTP/1.1" 200 -
+2025-03-24 09:13:25,922 - INFO - 127.0.0.1 - - [24/Mar/2025 09:13:25] "GET /get_commentary/bd8bf2ab-5427-4293-b19e-a47638ba8f6e/3 HTTP/1.1" 200 -
+2025-03-24 09:13:25,927 - INFO - 127.0.0.1 - - [24/Mar/2025 09:13:25] "GET /static/slides/8e5a0e21-d329-47b8-a858-9f9c3b0a3658/slide_3.png HTTP/1.1" 200 -
+2025-03-24 09:13:26,782 - INFO - 127.0.0.1 - - [24/Mar/2025 09:13:26] "GET /get_commentary/bd8bf2ab-5427-4293-b19e-a47638ba8f6e/4 HTTP/1.1" 200 -
+2025-03-24 09:13:26,788 - INFO - 127.0.0.1 - - [24/Mar/2025 09:13:26] "GET /static/slides/8e5a0e21-d329-47b8-a858-9f9c3b0a3658/slide_4.png HTTP/1.1" 200 -
+2025-03-24 09:13:27,808 - INFO - 127.0.0.1 - - [24/Mar/2025 09:13:27] "GET /get_commentary/bd8bf2ab-5427-4293-b19e-a47638ba8f6e/3 HTTP/1.1" 200 -
+2025-03-24 09:13:41,056 - INFO - 127.0.0.1 - - [24/Mar/2025 09:13:41] "POST /save_commentary HTTP/1.1" 200 -
+2025-03-24 09:13:42,572 - INFO - 127.0.0.1 - - [24/Mar/2025 09:13:42] "GET /get_commentary/bd8bf2ab-5427-4293-b19e-a47638ba8f6e/3 HTTP/1.1" 200 -
+2025-03-24 09:13:44,406 - INFO - 127.0.0.1 - - [24/Mar/2025 09:13:44] "GET /get_commentary/bd8bf2ab-5427-4293-b19e-a47638ba8f6e/4 HTTP/1.1" 200 -
+2025-03-24 09:13:51,720 - INFO - 127.0.0.1 - - [24/Mar/2025 09:13:51] "POST /save_commentary HTTP/1.1" 200 -
+2025-03-24 09:13:53,458 - INFO - 127.0.0.1 - - [24/Mar/2025 09:13:53] "GET /get_commentary/bd8bf2ab-5427-4293-b19e-a47638ba8f6e/4 HTTP/1.1" 200 -
+2025-03-24 09:13:57,749 - INFO - 127.0.0.1 - - [24/Mar/2025 09:13:57] "GET /get_commentary/bd8bf2ab-5427-4293-b19e-a47638ba8f6e/3 HTTP/1.1" 200 -
+2025-03-24 09:13:57,749 - INFO - 127.0.0.1 - - [24/Mar/2025 09:13:57] "[36mGET /static/slides/8e5a0e21-d329-47b8-a858-9f9c3b0a3658/slide_3.png HTTP/1.1[0m" 304 -
+2025-03-24 09:13:58,379 - INFO - 127.0.0.1 - - [24/Mar/2025 09:13:58] "GET /get_commentary/bd8bf2ab-5427-4293-b19e-a47638ba8f6e/2 HTTP/1.1" 200 -
+2025-03-24 09:13:58,379 - INFO - 127.0.0.1 - - [24/Mar/2025 09:13:58] "[36mGET /static/slides/8e5a0e21-d329-47b8-a858-9f9c3b0a3658/slide_2.png HTTP/1.1[0m" 304 -
+2025-03-24 09:13:59,091 - INFO - 127.0.0.1 - - [24/Mar/2025 09:13:59] "GET /get_commentary/bd8bf2ab-5427-4293-b19e-a47638ba8f6e/1 HTTP/1.1" 200 -
+2025-03-24 09:13:59,092 - INFO - 127.0.0.1 - - [24/Mar/2025 09:13:59] "[36mGET /static/slides/8e5a0e21-d329-47b8-a858-9f9c3b0a3658/slide_1.png HTTP/1.1[0m" 304 -
+2025-03-24 09:14:00,296 - INFO - 127.0.0.1 - - [24/Mar/2025 09:14:00] "GET /get_commentary/bd8bf2ab-5427-4293-b19e-a47638ba8f6e/2 HTTP/1.1" 200 -
+2025-03-24 09:14:00,475 - INFO - 127.0.0.1 - - [24/Mar/2025 09:14:00] "GET /get_commentary/bd8bf2ab-5427-4293-b19e-a47638ba8f6e/3 HTTP/1.1" 200 -
+2025-03-24 09:14:00,628 - INFO - 127.0.0.1 - - [24/Mar/2025 09:14:00] "GET /get_commentary/bd8bf2ab-5427-4293-b19e-a47638ba8f6e/4 HTTP/1.1" 200 -
+2025-03-24 09:14:01,928 - INFO - 127.0.0.1 - - [24/Mar/2025 09:14:01] "GET /get_commentary/bd8bf2ab-5427-4293-b19e-a47638ba8f6e/3 HTTP/1.1" 200 -
+2025-03-24 09:14:02,088 - INFO - 127.0.0.1 - - [24/Mar/2025 09:14:02] "GET /get_commentary/bd8bf2ab-5427-4293-b19e-a47638ba8f6e/2 HTTP/1.1" 200 -
+2025-03-24 09:14:02,262 - INFO - 127.0.0.1 - - [24/Mar/2025 09:14:02] "GET /get_commentary/bd8bf2ab-5427-4293-b19e-a47638ba8f6e/1 HTTP/1.1" 200 -
+2025-03-24 09:14:03,306 - INFO - 127.0.0.1 - - [24/Mar/2025 09:14:03] "GET /get_commentary/bd8bf2ab-5427-4293-b19e-a47638ba8f6e/2 HTTP/1.1" 200 -
+2025-03-24 09:14:03,480 - INFO - 127.0.0.1 - - [24/Mar/2025 09:14:03] "GET /get_commentary/bd8bf2ab-5427-4293-b19e-a47638ba8f6e/3 HTTP/1.1" 200 -
+2025-03-24 09:14:03,653 - INFO - 127.0.0.1 - - [24/Mar/2025 09:14:03] "GET /get_commentary/bd8bf2ab-5427-4293-b19e-a47638ba8f6e/4 HTTP/1.1" 200 -
+2025-03-24 09:14:07,749 - INFO - 127.0.0.1 - - [24/Mar/2025 09:14:07] "GET /get_commentary/bd8bf2ab-5427-4293-b19e-a47638ba8f6e/3 HTTP/1.1" 200 -
+2025-03-24 09:14:07,922 - INFO - 127.0.0.1 - - [24/Mar/2025 09:14:07] "GET /get_commentary/bd8bf2ab-5427-4293-b19e-a47638ba8f6e/2 HTTP/1.1" 200 -
+2025-03-24 09:14:08,091 - INFO - 127.0.0.1 - - [24/Mar/2025 09:14:08] "GET /get_commentary/bd8bf2ab-5427-4293-b19e-a47638ba8f6e/1 HTTP/1.1" 200 -
+2025-03-24 09:14:12,934 - INFO - 127.0.0.1 - - [24/Mar/2025 09:14:12] "GET /get_commentary/bd8bf2ab-5427-4293-b19e-a47638ba8f6e/2 HTTP/1.1" 200 -
+2025-03-24 09:14:13,449 - INFO - 127.0.0.1 - - [24/Mar/2025 09:14:13] "GET /get_commentary/bd8bf2ab-5427-4293-b19e-a47638ba8f6e/3 HTTP/1.1" 200 -
+2025-03-24 09:14:15,227 - INFO - 127.0.0.1 - - [24/Mar/2025 09:14:15] "GET /get_commentary/bd8bf2ab-5427-4293-b19e-a47638ba8f6e/2 HTTP/1.1" 200 -
+2025-03-24 09:14:15,374 - INFO - 127.0.0.1 - - [24/Mar/2025 09:14:15] "GET /get_commentary/bd8bf2ab-5427-4293-b19e-a47638ba8f6e/1 HTTP/1.1" 200 -
+2025-03-24 09:14:16,569 - INFO - 127.0.0.1 - - [24/Mar/2025 09:14:16] "GET /get_commentary/bd8bf2ab-5427-4293-b19e-a47638ba8f6e/2 HTTP/1.1" 200 -
+2025-03-24 10:09:31,203 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.129.132.106:8080
+2025-03-24 10:09:31,203 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-24 10:09:31,204 - INFO -  * Restarting with stat
+2025-03-24 10:09:31,457 - WARNING -  * Debugger is active!
+2025-03-24 10:09:31,460 - INFO -  * Debugger PIN: 131-861-368
+2025-03-24 10:09:33,528 - INFO - 127.0.0.1 - - [24/Mar/2025 10:09:33] "GET / HTTP/1.1" 200 -
+2025-03-24 10:10:03,891 - INFO - PPT path: C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\45e7e895-5b6f-4e6d-ad27-4d35b22fea76.pptx
+2025-03-24 10:10:03,891 - INFO - Running command to convert PPT to PDF: ['C:\\Program Files\\LibreOffice\\program\\soffice.exe', '--headless', '--convert-to', 'pdf', 'C:\\Users\\7sea\\OneDrive\\Data\\Runningdata\\DSapp\\ztcppt\\uploads\\45e7e895-5b6f-4e6d-ad27-4d35b22fea76.pptx', '--outdir', 'C:\\Users\\7sea\\AppData\\Local\\Temp\\tmpgtextp0i']
+2025-03-24 10:10:05,797 - INFO - LibreOffice output: convert C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\45e7e895-5b6f-4e6d-ad27-4d35b22fea76.pptx as a Impress document -> C:\Users\7sea\AppData\Local\Temp\tmpgtextp0i\45e7e895-5b6f-4e6d-ad27-4d35b22fea76.pdf using filter : impress_pdf_Export
+
+2025-03-24 10:10:07,138 - INFO - Saved slide 1 to static/slides\1b9d9664-3a1c-495f-85ba-c2b06c5e3584\slide_1.png
+2025-03-24 10:10:07,258 - INFO - Saved slide 2 to static/slides\1b9d9664-3a1c-495f-85ba-c2b06c5e3584\slide_2.png
+2025-03-24 10:10:07,381 - INFO - Saved slide 3 to static/slides\1b9d9664-3a1c-495f-85ba-c2b06c5e3584\slide_3.png
+2025-03-24 10:10:07,532 - INFO - Saved slide 4 to static/slides\1b9d9664-3a1c-495f-85ba-c2b06c5e3584\slide_4.png
+2025-03-24 10:10:07,532 - INFO - Converted C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\45e7e895-5b6f-4e6d-ad27-4d35b22fea76.pptx to 4 images
+2025-03-24 10:10:07,536 - INFO - 127.0.0.1 - - [24/Mar/2025 10:10:07] "POST / HTTP/1.1" 200 -
+2025-03-24 10:10:07,588 - INFO - 127.0.0.1 - - [24/Mar/2025 10:10:07] "GET /get_commentary/45e7e895-5b6f-4e6d-ad27-4d35b22fea76/1 HTTP/1.1" 200 -
+2025-03-24 10:10:07,599 - INFO - 127.0.0.1 - - [24/Mar/2025 10:10:07] "GET /static/slides/1b9d9664-3a1c-495f-85ba-c2b06c5e3584/slide_1.png HTTP/1.1" 200 -
+2025-03-24 10:10:12,238 - INFO - 127.0.0.1 - - [24/Mar/2025 10:10:12] "GET /get_commentary/45e7e895-5b6f-4e6d-ad27-4d35b22fea76/2 HTTP/1.1" 200 -
+2025-03-24 10:10:12,244 - INFO - 127.0.0.1 - - [24/Mar/2025 10:10:12] "GET /static/slides/1b9d9664-3a1c-495f-85ba-c2b06c5e3584/slide_2.png HTTP/1.1" 200 -
+2025-03-24 10:10:12,950 - INFO - 127.0.0.1 - - [24/Mar/2025 10:10:12] "GET /get_commentary/45e7e895-5b6f-4e6d-ad27-4d35b22fea76/3 HTTP/1.1" 200 -
+2025-03-24 10:10:12,955 - INFO - 127.0.0.1 - - [24/Mar/2025 10:10:12] "GET /static/slides/1b9d9664-3a1c-495f-85ba-c2b06c5e3584/slide_3.png HTTP/1.1" 200 -
+2025-03-24 10:10:14,122 - INFO - 127.0.0.1 - - [24/Mar/2025 10:10:14] "GET /get_commentary/45e7e895-5b6f-4e6d-ad27-4d35b22fea76/2 HTTP/1.1" 200 -
+2025-03-24 10:10:14,276 - INFO - 127.0.0.1 - - [24/Mar/2025 10:10:14] "GET /get_commentary/45e7e895-5b6f-4e6d-ad27-4d35b22fea76/1 HTTP/1.1" 200 -
+2025-03-24 10:10:21,326 - INFO - 127.0.0.1 - - [24/Mar/2025 10:10:21] "POST /save_commentary HTTP/1.1" 200 -
+2025-03-24 10:10:22,984 - INFO - 127.0.0.1 - - [24/Mar/2025 10:10:22] "GET /get_commentary/45e7e895-5b6f-4e6d-ad27-4d35b22fea76/1 HTTP/1.1" 200 -
+2025-03-24 10:10:24,229 - INFO - 127.0.0.1 - - [24/Mar/2025 10:10:24] "GET /get_commentary/45e7e895-5b6f-4e6d-ad27-4d35b22fea76/2 HTTP/1.1" 200 -
+2025-03-24 10:10:25,648 - INFO - 127.0.0.1 - - [24/Mar/2025 10:10:25] "GET /get_commentary/45e7e895-5b6f-4e6d-ad27-4d35b22fea76/1 HTTP/1.1" 200 -
+2025-03-24 10:10:26,224 - INFO - 127.0.0.1 - - [24/Mar/2025 10:10:26] "GET /get_commentary/45e7e895-5b6f-4e6d-ad27-4d35b22fea76/2 HTTP/1.1" 200 -
+2025-03-24 10:10:30,847 - INFO - 127.0.0.1 - - [24/Mar/2025 10:10:30] "POST /save_commentary HTTP/1.1" 200 -
+2025-03-24 10:10:31,962 - INFO - 127.0.0.1 - - [24/Mar/2025 10:10:31] "GET /get_commentary/45e7e895-5b6f-4e6d-ad27-4d35b22fea76/2 HTTP/1.1" 200 -
+2025-03-24 10:10:33,181 - INFO - 127.0.0.1 - - [24/Mar/2025 10:10:33] "GET /get_commentary/45e7e895-5b6f-4e6d-ad27-4d35b22fea76/3 HTTP/1.1" 200 -
+2025-03-24 10:10:34,242 - INFO - 127.0.0.1 - - [24/Mar/2025 10:10:34] "GET /get_commentary/45e7e895-5b6f-4e6d-ad27-4d35b22fea76/2 HTTP/1.1" 200 -
+2025-03-24 10:10:34,710 - INFO - 127.0.0.1 - - [24/Mar/2025 10:10:34] "GET /get_commentary/45e7e895-5b6f-4e6d-ad27-4d35b22fea76/1 HTTP/1.1" 200 -
+2025-03-24 10:10:35,450 - INFO - 127.0.0.1 - - [24/Mar/2025 10:10:35] "GET /get_commentary/45e7e895-5b6f-4e6d-ad27-4d35b22fea76/2 HTTP/1.1" 200 -
+2025-03-24 10:10:55,800 - INFO - 127.0.0.1 - - [24/Mar/2025 10:10:55] "GET / HTTP/1.1" 200 -
+2025-03-24 10:11:45,016 - INFO - PPT path: C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\cb4fd870-f73c-44fb-acd6-32991f8e6eef.pptx
+2025-03-24 10:11:45,017 - INFO - Running command to convert PPT to PDF: ['C:\\Program Files\\LibreOffice\\program\\soffice.exe', '--headless', '--convert-to', 'pdf', 'C:\\Users\\7sea\\OneDrive\\Data\\Runningdata\\DSapp\\ztcppt\\uploads\\cb4fd870-f73c-44fb-acd6-32991f8e6eef.pptx', '--outdir', 'C:\\Users\\7sea\\AppData\\Local\\Temp\\tmpljf3f4y7']
+2025-03-24 10:11:45,718 - INFO - PPT path: C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\419f7e52-3be1-406f-ac08-04f63c10a006.pptx
+2025-03-24 10:11:45,718 - INFO - Running command to convert PPT to PDF: ['C:\\Program Files\\LibreOffice\\program\\soffice.exe', '--headless', '--convert-to', 'pdf', 'C:\\Users\\7sea\\OneDrive\\Data\\Runningdata\\DSapp\\ztcppt\\uploads\\419f7e52-3be1-406f-ac08-04f63c10a006.pptx', '--outdir', 'C:\\Users\\7sea\\AppData\\Local\\Temp\\tmp8bnu0sdm']
+2025-03-24 10:11:45,878 - INFO - PPT path: C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\22077fe9-6a94-4712-827d-85fb66d33688.pptx
+2025-03-24 10:11:45,879 - INFO - Running command to convert PPT to PDF: ['C:\\Program Files\\LibreOffice\\program\\soffice.exe', '--headless', '--convert-to', 'pdf', 'C:\\Users\\7sea\\OneDrive\\Data\\Runningdata\\DSapp\\ztcppt\\uploads\\22077fe9-6a94-4712-827d-85fb66d33688.pptx', '--outdir', 'C:\\Users\\7sea\\AppData\\Local\\Temp\\tmpzof5hvwp']
+2025-03-24 10:11:46,045 - INFO - PPT path: C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\9ea2b1ea-0fc3-4b02-9b7a-657b434c6719.pptx
+2025-03-24 10:11:46,046 - INFO - Running command to convert PPT to PDF: ['C:\\Program Files\\LibreOffice\\program\\soffice.exe', '--headless', '--convert-to', 'pdf', 'C:\\Users\\7sea\\OneDrive\\Data\\Runningdata\\DSapp\\ztcppt\\uploads\\9ea2b1ea-0fc3-4b02-9b7a-657b434c6719.pptx', '--outdir', 'C:\\Users\\7sea\\AppData\\Local\\Temp\\tmp23o3ddxv']
+2025-03-24 10:11:46,234 - INFO - PPT path: C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\978cf729-f50a-4b49-a27c-51445c372d8b.pptx
+2025-03-24 10:11:46,235 - INFO - Running command to convert PPT to PDF: ['C:\\Program Files\\LibreOffice\\program\\soffice.exe', '--headless', '--convert-to', 'pdf', 'C:\\Users\\7sea\\OneDrive\\Data\\Runningdata\\DSapp\\ztcppt\\uploads\\978cf729-f50a-4b49-a27c-51445c372d8b.pptx', '--outdir', 'C:\\Users\\7sea\\AppData\\Local\\Temp\\tmp1fy7q4g4']
+2025-03-24 10:11:46,392 - INFO - PPT path: C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\d281f5b3-e565-4f13-bea6-066edcc2385b.pptx
+2025-03-24 10:11:46,393 - INFO - Running command to convert PPT to PDF: ['C:\\Program Files\\LibreOffice\\program\\soffice.exe', '--headless', '--convert-to', 'pdf', 'C:\\Users\\7sea\\OneDrive\\Data\\Runningdata\\DSapp\\ztcppt\\uploads\\d281f5b3-e565-4f13-bea6-066edcc2385b.pptx', '--outdir', 'C:\\Users\\7sea\\AppData\\Local\\Temp\\tmpja6nzdvi']
+2025-03-24 10:11:46,878 - ERROR - Error converting PPT: Command '['C:\\Program Files\\LibreOffice\\program\\soffice.exe', '--headless', '--convert-to', 'pdf', 'C:\\Users\\7sea\\OneDrive\\Data\\Runningdata\\DSapp\\ztcppt\\uploads\\419f7e52-3be1-406f-ac08-04f63c10a006.pptx', '--outdir', 'C:\\Users\\7sea\\AppData\\Local\\Temp\\tmp8bnu0sdm']' returned non-zero exit status 1.
+2025-03-24 10:11:46,879 - INFO - 127.0.0.1 - - [24/Mar/2025 10:11:46] "POST / HTTP/1.1" 200 -
+2025-03-24 10:11:46,953 - INFO - LibreOffice output: convert C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\cb4fd870-f73c-44fb-acd6-32991f8e6eef.pptx as a Impress document -> C:\Users\7sea\AppData\Local\Temp\tmpljf3f4y7\cb4fd870-f73c-44fb-acd6-32991f8e6eef.pdf using filter : impress_pdf_Export
+
+2025-03-24 10:11:48,380 - INFO - Saved slide 1 to static/slides\92958b7a-7fcc-43bb-a856-f0059df4b8f0\slide_1.png
+2025-03-24 10:11:48,505 - INFO - Saved slide 2 to static/slides\92958b7a-7fcc-43bb-a856-f0059df4b8f0\slide_2.png
+2025-03-24 10:11:48,637 - INFO - Saved slide 3 to static/slides\92958b7a-7fcc-43bb-a856-f0059df4b8f0\slide_3.png
+2025-03-24 10:11:48,683 - ERROR - Error converting PPT: Command '['C:\\Program Files\\LibreOffice\\program\\soffice.exe', '--headless', '--convert-to', 'pdf', 'C:\\Users\\7sea\\OneDrive\\Data\\Runningdata\\DSapp\\ztcppt\\uploads\\9ea2b1ea-0fc3-4b02-9b7a-657b434c6719.pptx', '--outdir', 'C:\\Users\\7sea\\AppData\\Local\\Temp\\tmp23o3ddxv']' returned non-zero exit status 1.
+2025-03-24 10:11:48,683 - INFO - 127.0.0.1 - - [24/Mar/2025 10:11:48] "POST / HTTP/1.1" 200 -
+2025-03-24 10:11:48,753 - INFO - LibreOffice output: convert C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\d281f5b3-e565-4f13-bea6-066edcc2385b.pptx as a Impress document -> C:\Users\7sea\AppData\Local\Temp\tmpja6nzdvi\d281f5b3-e565-4f13-bea6-066edcc2385b.pdf using filter : impress_pdf_Export
+
+2025-03-24 10:11:48,787 - INFO - Saved slide 4 to static/slides\92958b7a-7fcc-43bb-a856-f0059df4b8f0\slide_4.png
+2025-03-24 10:11:48,787 - INFO - Converted C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\cb4fd870-f73c-44fb-acd6-32991f8e6eef.pptx to 4 images
+2025-03-24 10:11:48,790 - INFO - 127.0.0.1 - - [24/Mar/2025 10:11:48] "POST / HTTP/1.1" 200 -
+2025-03-24 10:11:50,087 - INFO - Saved slide 1 to static/slides\2b45f231-7fca-4aaa-8bc0-2f4e816dd613\slide_1.png
+2025-03-24 10:11:50,206 - INFO - Saved slide 2 to static/slides\2b45f231-7fca-4aaa-8bc0-2f4e816dd613\slide_2.png
+2025-03-24 10:11:50,331 - INFO - Saved slide 3 to static/slides\2b45f231-7fca-4aaa-8bc0-2f4e816dd613\slide_3.png
+2025-03-24 10:11:50,486 - INFO - Saved slide 4 to static/slides\2b45f231-7fca-4aaa-8bc0-2f4e816dd613\slide_4.png
+2025-03-24 10:11:50,486 - INFO - Converted C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\d281f5b3-e565-4f13-bea6-066edcc2385b.pptx to 4 images
+2025-03-24 10:11:50,489 - INFO - 127.0.0.1 - - [24/Mar/2025 10:11:50] "POST / HTTP/1.1" 200 -
+2025-03-24 10:11:50,515 - INFO - 127.0.0.1 - - [24/Mar/2025 10:11:50] "GET /static/slides/2b45f231-7fca-4aaa-8bc0-2f4e816dd613/slide_1.png HTTP/1.1" 200 -
+2025-03-24 10:11:50,535 - INFO - 127.0.0.1 - - [24/Mar/2025 10:11:50] "GET /get_commentary/d281f5b3-e565-4f13-bea6-066edcc2385b/1 HTTP/1.1" 200 -
+2025-03-24 10:11:50,620 - ERROR - Error converting PPT: Command '['C:\\Program Files\\LibreOffice\\program\\soffice.exe', '--headless', '--convert-to', 'pdf', 'C:\\Users\\7sea\\OneDrive\\Data\\Runningdata\\DSapp\\ztcppt\\uploads\\978cf729-f50a-4b49-a27c-51445c372d8b.pptx', '--outdir', 'C:\\Users\\7sea\\AppData\\Local\\Temp\\tmp1fy7q4g4']' returned non-zero exit status 1.
+2025-03-24 10:11:50,621 - INFO - 127.0.0.1 - - [24/Mar/2025 10:11:50] "POST / HTTP/1.1" 200 -
+2025-03-24 10:11:50,706 - INFO - LibreOffice output: convert C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\22077fe9-6a94-4712-827d-85fb66d33688.pptx as a Impress document -> C:\Users\7sea\AppData\Local\Temp\tmpzof5hvwp\22077fe9-6a94-4712-827d-85fb66d33688.pdf using filter : impress_pdf_Export
+
+2025-03-24 10:11:51,994 - INFO - Saved slide 1 to static/slides\35b045a6-4d6b-4d7d-8227-9783e40df185\slide_1.png
+2025-03-24 10:11:52,111 - INFO - Saved slide 2 to static/slides\35b045a6-4d6b-4d7d-8227-9783e40df185\slide_2.png
+2025-03-24 10:11:52,235 - INFO - Saved slide 3 to static/slides\35b045a6-4d6b-4d7d-8227-9783e40df185\slide_3.png
+2025-03-24 10:11:52,382 - INFO - Saved slide 4 to static/slides\35b045a6-4d6b-4d7d-8227-9783e40df185\slide_4.png
+2025-03-24 10:11:52,383 - INFO - Converted C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\22077fe9-6a94-4712-827d-85fb66d33688.pptx to 4 images
+2025-03-24 10:11:52,386 - INFO - 127.0.0.1 - - [24/Mar/2025 10:11:52] "POST / HTTP/1.1" 200 -
+2025-03-24 10:12:37,701 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.129.132.106:8080
+2025-03-24 10:12:37,702 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-24 10:12:37,703 - INFO -  * Restarting with stat
+2025-03-24 10:12:37,962 - WARNING -  * Debugger is active!
+2025-03-24 10:12:37,965 - INFO -  * Debugger PIN: 131-861-368
+2025-03-24 10:12:40,665 - INFO - 127.0.0.1 - - [24/Mar/2025 10:12:40] "GET / HTTP/1.1" 200 -
+2025-03-24 10:12:47,143 - INFO - PPT path: C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\cad11c4c-52d6-4e04-a70d-0aeb3fc40c8d.pptx
+2025-03-24 10:12:47,143 - INFO - Running command to convert PPT to PDF: ['C:\\Program Files\\LibreOffice\\program\\soffice.exe', '--headless', '--convert-to', 'pdf', 'C:\\Users\\7sea\\OneDrive\\Data\\Runningdata\\DSapp\\ztcppt\\uploads\\cad11c4c-52d6-4e04-a70d-0aeb3fc40c8d.pptx', '--outdir', 'C:\\Users\\7sea\\AppData\\Local\\Temp\\tmpws6t9ie8']
+2025-03-24 10:12:48,956 - INFO - LibreOffice output: convert C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\cad11c4c-52d6-4e04-a70d-0aeb3fc40c8d.pptx as a Impress document -> C:\Users\7sea\AppData\Local\Temp\tmpws6t9ie8\cad11c4c-52d6-4e04-a70d-0aeb3fc40c8d.pdf using filter : impress_pdf_Export
+
+2025-03-24 10:12:50,264 - INFO - Saved slide 1 to static/slides\9a2b50c0-2ead-4e84-868a-d48b4a2f5bb4\slide_1.png
+2025-03-24 10:12:50,388 - INFO - Saved slide 2 to static/slides\9a2b50c0-2ead-4e84-868a-d48b4a2f5bb4\slide_2.png
+2025-03-24 10:12:50,514 - INFO - Saved slide 3 to static/slides\9a2b50c0-2ead-4e84-868a-d48b4a2f5bb4\slide_3.png
+2025-03-24 10:12:50,670 - INFO - Saved slide 4 to static/slides\9a2b50c0-2ead-4e84-868a-d48b4a2f5bb4\slide_4.png
+2025-03-24 10:12:50,671 - INFO - Converted C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\cad11c4c-52d6-4e04-a70d-0aeb3fc40c8d.pptx to 4 images
+2025-03-24 10:12:50,674 - INFO - 127.0.0.1 - - [24/Mar/2025 10:12:50] "POST / HTTP/1.1" 200 -
+2025-03-24 10:12:50,707 - INFO - 127.0.0.1 - - [24/Mar/2025 10:12:50] "GET /get_commentary/cad11c4c-52d6-4e04-a70d-0aeb3fc40c8d/1 HTTP/1.1" 200 -
+2025-03-24 10:12:50,729 - INFO - 127.0.0.1 - - [24/Mar/2025 10:12:50] "GET /static/slides/9a2b50c0-2ead-4e84-868a-d48b4a2f5bb4/slide_1.png HTTP/1.1" 200 -
+2025-03-24 10:12:52,722 - INFO - 127.0.0.1 - - [24/Mar/2025 10:12:52] "GET /get_commentary/cad11c4c-52d6-4e04-a70d-0aeb3fc40c8d/2 HTTP/1.1" 200 -
+2025-03-24 10:12:52,728 - INFO - 127.0.0.1 - - [24/Mar/2025 10:12:52] "GET /static/slides/9a2b50c0-2ead-4e84-868a-d48b4a2f5bb4/slide_2.png HTTP/1.1" 200 -
+2025-03-24 10:12:53,534 - INFO - 127.0.0.1 - - [24/Mar/2025 10:12:53] "GET /get_commentary/cad11c4c-52d6-4e04-a70d-0aeb3fc40c8d/3 HTTP/1.1" 200 -
+2025-03-24 10:12:53,541 - INFO - 127.0.0.1 - - [24/Mar/2025 10:12:53] "GET /static/slides/9a2b50c0-2ead-4e84-868a-d48b4a2f5bb4/slide_3.png HTTP/1.1" 200 -
+2025-03-24 10:12:54,192 - INFO - 127.0.0.1 - - [24/Mar/2025 10:12:54] "GET /get_commentary/cad11c4c-52d6-4e04-a70d-0aeb3fc40c8d/4 HTTP/1.1" 200 -
+2025-03-24 10:12:54,199 - INFO - 127.0.0.1 - - [24/Mar/2025 10:12:54] "GET /static/slides/9a2b50c0-2ead-4e84-868a-d48b4a2f5bb4/slide_4.png HTTP/1.1" 200 -
+2025-03-24 10:12:55,366 - INFO - 127.0.0.1 - - [24/Mar/2025 10:12:55] "GET /get_commentary/cad11c4c-52d6-4e04-a70d-0aeb3fc40c8d/3 HTTP/1.1" 200 -
+2025-03-24 10:12:55,528 - INFO - 127.0.0.1 - - [24/Mar/2025 10:12:55] "GET /get_commentary/cad11c4c-52d6-4e04-a70d-0aeb3fc40c8d/2 HTTP/1.1" 200 -
+2025-03-24 10:12:55,736 - INFO - 127.0.0.1 - - [24/Mar/2025 10:12:55] "GET /get_commentary/cad11c4c-52d6-4e04-a70d-0aeb3fc40c8d/1 HTTP/1.1" 200 -
+2025-03-24 10:14:49,254 - INFO - PPT path: C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\4818cb01-04d5-446f-a4e8-da5fc4d9587b.pptx
+2025-03-24 10:14:49,254 - INFO - Running command to convert PPT to PDF: ['C:\\Program Files\\LibreOffice\\program\\soffice.exe', '--headless', '--convert-to', 'pdf', 'C:\\Users\\7sea\\OneDrive\\Data\\Runningdata\\DSapp\\ztcppt\\uploads\\4818cb01-04d5-446f-a4e8-da5fc4d9587b.pptx', '--outdir', 'C:\\Users\\7sea\\AppData\\Local\\Temp\\tmpgkgd02vb']
+2025-03-24 10:14:51,069 - INFO - LibreOffice output: convert C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\4818cb01-04d5-446f-a4e8-da5fc4d9587b.pptx as a Impress document -> C:\Users\7sea\AppData\Local\Temp\tmpgkgd02vb\4818cb01-04d5-446f-a4e8-da5fc4d9587b.pdf using filter : impress_pdf_Export
+
+2025-03-24 10:14:52,371 - INFO - Saved slide 1 to static/slides\461ad26e-cacd-4b12-8c64-af7c44700718\slide_1.png
+2025-03-24 10:14:52,494 - INFO - Saved slide 2 to static/slides\461ad26e-cacd-4b12-8c64-af7c44700718\slide_2.png
+2025-03-24 10:14:52,620 - INFO - Saved slide 3 to static/slides\461ad26e-cacd-4b12-8c64-af7c44700718\slide_3.png
+2025-03-24 10:14:52,773 - INFO - Saved slide 4 to static/slides\461ad26e-cacd-4b12-8c64-af7c44700718\slide_4.png
+2025-03-24 10:14:52,774 - INFO - Converted C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\4818cb01-04d5-446f-a4e8-da5fc4d9587b.pptx to 4 images
+2025-03-24 10:14:52,777 - INFO - 127.0.0.1 - - [24/Mar/2025 10:14:52] "POST / HTTP/1.1" 200 -
+2025-03-24 10:14:52,800 - INFO - 127.0.0.1 - - [24/Mar/2025 10:14:52] "GET /static/slides/461ad26e-cacd-4b12-8c64-af7c44700718/slide_1.png HTTP/1.1" 200 -
+2025-03-24 10:14:52,821 - INFO - 127.0.0.1 - - [24/Mar/2025 10:14:52] "GET /get_commentary/4818cb01-04d5-446f-a4e8-da5fc4d9587b/1 HTTP/1.1" 200 -
+2025-03-24 10:14:57,840 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.129.132.106:8080
+2025-03-24 10:14:57,840 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-24 10:14:57,841 - INFO -  * Restarting with stat
+2025-03-24 10:14:58,104 - WARNING -  * Debugger is active!
+2025-03-24 10:14:58,107 - INFO -  * Debugger PIN: 131-861-368
+2025-03-24 10:14:59,569 - INFO - 127.0.0.1 - - [24/Mar/2025 10:14:59] "GET / HTTP/1.1" 200 -
+2025-03-24 10:15:05,734 - INFO - PPT path: C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\4119bde6-1c5e-4f89-b106-bd68a7cf0968.pptx
+2025-03-24 10:15:05,735 - INFO - Running command to convert PPT to PDF: ['C:\\Program Files\\LibreOffice\\program\\soffice.exe', '--headless', '--convert-to', 'pdf', 'C:\\Users\\7sea\\OneDrive\\Data\\Runningdata\\DSapp\\ztcppt\\uploads\\4119bde6-1c5e-4f89-b106-bd68a7cf0968.pptx', '--outdir', 'C:\\Users\\7sea\\AppData\\Local\\Temp\\tmpvtxgrx4n']
+2025-03-24 10:15:07,577 - INFO - LibreOffice output: convert C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\4119bde6-1c5e-4f89-b106-bd68a7cf0968.pptx as a Impress document -> C:\Users\7sea\AppData\Local\Temp\tmpvtxgrx4n\4119bde6-1c5e-4f89-b106-bd68a7cf0968.pdf using filter : impress_pdf_Export
+
+2025-03-24 10:15:08,883 - INFO - Saved slide 1 to static/slides\5c028dc5-d0bb-4647-b28b-c0a327e6ae9d\slide_1.png
+2025-03-24 10:15:09,005 - INFO - Saved slide 2 to static/slides\5c028dc5-d0bb-4647-b28b-c0a327e6ae9d\slide_2.png
+2025-03-24 10:15:09,134 - INFO - Saved slide 3 to static/slides\5c028dc5-d0bb-4647-b28b-c0a327e6ae9d\slide_3.png
+2025-03-24 10:15:09,282 - INFO - Saved slide 4 to static/slides\5c028dc5-d0bb-4647-b28b-c0a327e6ae9d\slide_4.png
+2025-03-24 10:15:09,283 - INFO - Converted C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\4119bde6-1c5e-4f89-b106-bd68a7cf0968.pptx to 4 images
+2025-03-24 10:15:09,286 - INFO - 127.0.0.1 - - [24/Mar/2025 10:15:09] "POST / HTTP/1.1" 200 -
+2025-03-24 10:15:09,315 - INFO - 127.0.0.1 - - [24/Mar/2025 10:15:09] "GET /get_commentary/4119bde6-1c5e-4f89-b106-bd68a7cf0968/1 HTTP/1.1" 200 -
+2025-03-24 10:15:09,344 - INFO - 127.0.0.1 - - [24/Mar/2025 10:15:09] "GET /static/slides/5c028dc5-d0bb-4647-b28b-c0a327e6ae9d/slide_1.png HTTP/1.1" 200 -
+2025-03-24 10:25:18,965 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.129.132.106:8080
+2025-03-24 10:25:18,965 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-24 10:25:18,967 - INFO -  * Restarting with stat
+2025-03-24 10:25:19,215 - WARNING -  * Debugger is active!
+2025-03-24 10:25:19,218 - INFO -  * Debugger PIN: 131-861-368
+2025-03-24 10:25:26,323 - INFO - 127.0.0.1 - - [24/Mar/2025 10:25:26] "GET / HTTP/1.1" 200 -
+2025-03-24 10:25:51,967 - INFO - PPT path: C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\8b0da75f-4dfb-4549-bb1e-83d15313002f.pptx
+2025-03-24 10:25:51,967 - INFO - Running command to convert PPT to PDF: ['C:\\Program Files\\LibreOffice\\program\\soffice.exe', '--headless', '--convert-to', 'pdf', 'C:\\Users\\7sea\\OneDrive\\Data\\Runningdata\\DSapp\\ztcppt\\uploads\\8b0da75f-4dfb-4549-bb1e-83d15313002f.pptx', '--outdir', 'C:\\Users\\7sea\\AppData\\Local\\Temp\\tmp37wkdu4o']
+2025-03-24 10:25:54,777 - INFO - LibreOffice output: convert C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\8b0da75f-4dfb-4549-bb1e-83d15313002f.pptx as a Impress document -> C:\Users\7sea\AppData\Local\Temp\tmp37wkdu4o\8b0da75f-4dfb-4549-bb1e-83d15313002f.pdf using filter : impress_pdf_Export
+
+2025-03-24 10:25:56,482 - INFO - Saved slide 1 to static/slides\7e70c981-972b-49ed-8184-65bbd72ca245\slide_1.png
+2025-03-24 10:25:56,604 - INFO - Saved slide 2 to static/slides\7e70c981-972b-49ed-8184-65bbd72ca245\slide_2.png
+2025-03-24 10:25:56,731 - INFO - Saved slide 3 to static/slides\7e70c981-972b-49ed-8184-65bbd72ca245\slide_3.png
+2025-03-24 10:25:56,881 - INFO - Saved slide 4 to static/slides\7e70c981-972b-49ed-8184-65bbd72ca245\slide_4.png
+2025-03-24 10:25:56,881 - INFO - Converted C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\8b0da75f-4dfb-4549-bb1e-83d15313002f.pptx to 4 images
+2025-03-24 10:25:56,884 - INFO - 127.0.0.1 - - [24/Mar/2025 10:25:56] "POST / HTTP/1.1" 200 -
+2025-03-24 10:25:56,923 - INFO - 127.0.0.1 - - [24/Mar/2025 10:25:56] "GET /get_commentary/8b0da75f-4dfb-4549-bb1e-83d15313002f/1 HTTP/1.1" 200 -
+2025-03-24 10:25:56,946 - INFO - 127.0.0.1 - - [24/Mar/2025 10:25:56] "GET /static/slides/7e70c981-972b-49ed-8184-65bbd72ca245/slide_1.png HTTP/1.1" 200 -
+2025-03-24 10:26:39,156 - INFO - 127.0.0.1 - - [24/Mar/2025 10:26:39] "GET / HTTP/1.1" 200 -
+2025-03-24 10:27:08,073 - INFO - PPT path: C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\1f635d43-022d-4418-a771-32bd4966235b.pptx
+2025-03-24 10:27:08,074 - INFO - Running command to convert PPT to PDF: ['C:\\Program Files\\LibreOffice\\program\\soffice.exe', '--headless', '--convert-to', 'pdf', 'C:\\Users\\7sea\\OneDrive\\Data\\Runningdata\\DSapp\\ztcppt\\uploads\\1f635d43-022d-4418-a771-32bd4966235b.pptx', '--outdir', 'C:\\Users\\7sea\\AppData\\Local\\Temp\\tmp5gnbr3r2']
+2025-03-24 10:27:09,891 - INFO - LibreOffice output: convert C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\1f635d43-022d-4418-a771-32bd4966235b.pptx as a Impress document -> C:\Users\7sea\AppData\Local\Temp\tmp5gnbr3r2\1f635d43-022d-4418-a771-32bd4966235b.pdf using filter : impress_pdf_Export
+
+2025-03-24 10:27:11,209 - INFO - Saved slide 1 to static/slides\9cd6e30d-4c1e-48b6-8343-5e5aaae0982c\slide_1.png
+2025-03-24 10:27:11,332 - INFO - Saved slide 2 to static/slides\9cd6e30d-4c1e-48b6-8343-5e5aaae0982c\slide_2.png
+2025-03-24 10:27:11,456 - INFO - Saved slide 3 to static/slides\9cd6e30d-4c1e-48b6-8343-5e5aaae0982c\slide_3.png
+2025-03-24 10:27:11,606 - INFO - Saved slide 4 to static/slides\9cd6e30d-4c1e-48b6-8343-5e5aaae0982c\slide_4.png
+2025-03-24 10:27:11,606 - INFO - Converted C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\1f635d43-022d-4418-a771-32bd4966235b.pptx to 4 images
+2025-03-24 10:27:11,609 - INFO - 127.0.0.1 - - [24/Mar/2025 10:27:11] "POST / HTTP/1.1" 200 -
+2025-03-24 10:27:11,635 - INFO - 127.0.0.1 - - [24/Mar/2025 10:27:11] "GET /static/slides/9cd6e30d-4c1e-48b6-8343-5e5aaae0982c/slide_1.png HTTP/1.1" 200 -
+2025-03-24 10:27:11,692 - INFO - 127.0.0.1 - - [24/Mar/2025 10:27:11] "GET /get_commentary/1f635d43-022d-4418-a771-32bd4966235b/1 HTTP/1.1" 200 -
+2025-03-24 10:30:27,491 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.129.132.106:8080
+2025-03-24 10:30:27,491 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-24 10:30:27,492 - INFO -  * Restarting with stat
+2025-03-24 10:30:27,747 - WARNING -  * Debugger is active!
+2025-03-24 10:30:27,751 - INFO -  * Debugger PIN: 131-861-368
+2025-03-24 10:30:29,992 - INFO - 127.0.0.1 - - [24/Mar/2025 10:30:29] "GET / HTTP/1.1" 200 -
+2025-03-24 10:30:40,329 - INFO - PPT path: C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\f3a7336c-f6d0-440f-a975-08eee0571fa3.pptx
+2025-03-24 10:30:40,330 - INFO - Running command to convert PPT to PDF: ['C:\\Program Files\\LibreOffice\\program\\soffice.exe', '--headless', '--convert-to', 'pdf', 'C:\\Users\\7sea\\OneDrive\\Data\\Runningdata\\DSapp\\ztcppt\\uploads\\f3a7336c-f6d0-440f-a975-08eee0571fa3.pptx', '--outdir', 'C:\\Users\\7sea\\AppData\\Local\\Temp\\tmpiqh2dpa2']
+2025-03-24 10:30:42,203 - INFO - LibreOffice output: convert C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\f3a7336c-f6d0-440f-a975-08eee0571fa3.pptx as a Impress document -> C:\Users\7sea\AppData\Local\Temp\tmpiqh2dpa2\f3a7336c-f6d0-440f-a975-08eee0571fa3.pdf using filter : impress_pdf_Export
+
+2025-03-24 10:30:43,558 - INFO - Saved slide 1 to static/slides\8418beb7-7335-4f97-aeeb-37c6b958a548\slide_1.png
+2025-03-24 10:30:43,681 - INFO - Saved slide 2 to static/slides\8418beb7-7335-4f97-aeeb-37c6b958a548\slide_2.png
+2025-03-24 10:30:43,810 - INFO - Saved slide 3 to static/slides\8418beb7-7335-4f97-aeeb-37c6b958a548\slide_3.png
+2025-03-24 10:30:43,961 - INFO - Saved slide 4 to static/slides\8418beb7-7335-4f97-aeeb-37c6b958a548\slide_4.png
+2025-03-24 10:30:43,961 - INFO - Converted C:\Users\7sea\OneDrive\Data\Runningdata\DSapp\ztcppt\uploads\f3a7336c-f6d0-440f-a975-08eee0571fa3.pptx to 4 images
+2025-03-24 10:30:43,964 - INFO - 127.0.0.1 - - [24/Mar/2025 10:30:43] "POST / HTTP/1.1" 200 -
+2025-03-24 10:30:43,998 - INFO - 127.0.0.1 - - [24/Mar/2025 10:30:43] "GET /get_commentary/f3a7336c-f6d0-440f-a975-08eee0571fa3/1 HTTP/1.1" 200 -
+2025-03-24 10:30:44,028 - INFO - 127.0.0.1 - - [24/Mar/2025 10:30:44] "GET /static/slides/8418beb7-7335-4f97-aeeb-37c6b958a548/slide_1.png HTTP/1.1" 200 -

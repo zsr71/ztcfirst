@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PPT/PDF Preview</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        html, body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: row;
+        }
+        .container {
+            display: flex;
+            width: 100%;
+            height: 100%;
+        }
+        .left-panel {
+            width: 50%;
+            height: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .right-panel {
+            width: 50%;
+            height: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+            border-left: 2px solid #1e90ff;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .upload-section {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .upload-section input[type="file"] {
+            margin-right: 10px;
+        }
+        #slide-content {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #ccc;
+            padding: 20px;
+            box-sizing: border-box;
+            overflow: auto;
+        }
+        img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+        .navigation {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 0 5px;
+            cursor: pointer;
+            border: 1px solid #ccc;
+            background-color: #fff;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #f0f0f0;
+        }
+        .error {
+            color: red;
+        }
+        .right-panel h2 {
+            margin-top: 0;
+        }
+        .right-panel textarea {
+            width: 100%;
+            height: 150px;
+            margin: 10px 0;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        .play-controls {
+            display: flex;
+            align-items: center;
+            margin: 20px 0;
+        }
+        .play-button {
+            font-size: 20px;
+            color: #1e90ff;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+        .record-button {
+            font-size: 20px;
+            color: #1e90ff;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+        .record-button.recording {
+            color: #ff0000;
+            animation: pulse 1s infinite;
+        }
+        @keyframes pulse {
+            0% { opacity: 1; }
+            50% { opacity: 0.5; }
+            100% { opacity: 1; }
+        }
+        .action-buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .action-buttons button {
+            background-color: #1e90ff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .action-buttons button:hover {
+            background-color: #187bcd;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-panel">
+            <h1>PPT 上传和预览</h1>
+            <div class="upload-section">
+                <form method="post" enctype="multipart/form-data" id="upload-form">
+                    <input type="file" name="file" accept=".pptx,.pdf" required>
+                    <input type="submit" value="上传">
+                </form>
+            </div>
+
+            {% if slides %}
+            <div id="slide-content">
+                <img src="/static/slides/{{ slides[0] }}" alt="Slide 1" id="slide-image">
+            </div>
+            <div class="navigation">
+                <p>第 <span id="slide-number">1</span> / {{ total_slides }} 页</p>
+                <button onclick="prevSlide()">上一页</button>
+                <button onclick="nextSlide()">下一页</button>
+            </div>
+            {% else %}
+            <p class="error">暂无幻灯片，请上传 PPTX 或 PDF 文件进行预览。</p>
+            {% endif %}
+        </div>
+
+        <div class="right-panel">
+            <div>
+                <h2>第 <span id="commentary-slide-number">1</span> 页的解说词：</h2>
+                <textarea id="commentary-input" placeholder="请输入第 1 页的解说词..."></textarea>
+            </div>
+            <div class="play-controls">
+                <i class="fas fa-play play-button" onclick="togglePlay()"></i>
+                <span class="record-time">已录音时长：0:00</span>
+                <i class="fas fa-microphone record-button" onclick="toggleRecording()"></i>
+            </div>
+            <div class="action-buttons">
+                <button onclick="saveCommentary()">保存解说词</button>
+                <button onclick="startRecording()">开始录音</button>
+                <button onclick="stopRecording()">停止录音</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        console.log("JavaScript loaded");
+
+        let currentSlide = 0;
+        const slides = {{ slides|tojson }};
+        const totalSlides = {{ total_slides }};
+        const uniqueId = "{{ unique_id|default('') }}";
+        let isPlaying = false;
+        let isRecording = false;
+        let mediaRecorder = null;
+        let audioChunks = [];
+        let startTime = null;
+        let timerInterval = null;
+
+        // 更新幻灯片和解说词
+        function updateSlide() {
+            console.log("Updating slide:", currentSlide);
+            const imgElement = document.getElementById('slide-image');
+            const newSrc = `/static/slides/${slides[currentSlide]}`;
+            imgElement.src = newSrc;
+            imgElement.onerror = () => {
+                imgElement.alt = 'Image failed to load';
+            };
+            document.getElementById('slide-number').innerText = currentSlide + 1;
+            document.getElementById('commentary-slide-number').innerText = currentSlide + 1;
+            fetchCommentary(currentSlide + 1);
+        }
+
+        // 上一页
+        function prevSlide() {
+            if (currentSlide > 0) {
+                currentSlide--;
+                updateSlide();
+            }
+        }
+
+        // 下一页
+        function nextSlide() {
+            if (currentSlide < totalSlides - 1) {
+                currentSlide++;
+                updateSlide();
+            }
+        }
+
+        // 获取解说词
+        function fetchCommentary(slideNumber) {
+            fetch(`/get_commentary/${uniqueId}/${slideNumber}`)
+                .then(response => response.json())
+                .then(data => {
+                    const commentaryInput = document.getElementById('commentary-input');
+                    if (data.commentary) {
+                        commentaryInput.value = data.commentary;
+                    } else {
+                        commentaryInput.value = '';
+                        commentaryInput.placeholder = `请输入第 ${slideNumber} 页的解说词`;
+                    }
+                })
+                .catch(error => {
+                    console.error('Error fetching commentary:', error);
+                });
+        }
+
+        // 保存解说词
+        function saveCommentary() {
+            const slideNumber = currentSlide + 1;
+            const commentary = document.getElementById('commentary-input').value;
+
+            if (!commentary) {
+                alert("解说词不能为空！");
+                return;
+            }
+
+            fetch('/save_commentary', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    slide_number: slideNumber,
+                    commentary: commentary,
+                    unique_id: uniqueId
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                alert(data.message || "保存成功");
+                fetchCommentary(slideNumber);
+            })
+            .catch(error => {
+                console.error('Error saving commentary:', error);
+                alert("保存失败，请重试！");
+            });
+        }
+
+        // 播放/暂停音频（占位功能）
+        function togglePlay() {
+            isPlaying = !isPlaying;
+            const playButton = document.querySelector('.play-button');
+            playButton.classList.toggle('fa-play', !isPlaying);
+            playButton.classList.toggle('fa-pause', isPlaying);
+            console.log(isPlaying ? "Playing audio..." : "Paused audio...");
+        }
+
+        // 格式化时间
+        function formatTime(seconds) {
+            const minutes = Math.floor(seconds / 60);
+            const secs = Math.floor(seconds % 60);
+            return `${minutes.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+        }
+
+        // 更新录音时长
+        function updateTimer() {
+            const elapsedTime = (Date.now() - startTime) / 1000;
+            document.querySelector('.record-time').textContent = `已录音时长：${formatTime(elapsedTime)}`;
+        }
+
+        // 开始录音
+        async function startRecording() {
+            if (!isRecording) {
+                try {
+                    // 检查是否有可用音频输入设备
+                    const devices = await navigator.mediaDevices.enumerateDevices();
+                    const audioInputs = devices.filter(device => device.kind === 'audioinput');
+                    if (audioInputs.length === 0) {
+                        throw new Error('NotFoundError: No microphone detected');
+                    }
+
+                    const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+                    mediaRecorder = new MediaRecorder(stream);
+                    audioChunks = [];
+
+                    mediaRecorder.ondataavailable = (event) => {
+                        if (event.data.size > 0) {
+                            audioChunks.push(event.data);
+                        }
+                    };
+
+                    mediaRecorder.onstop = () => {
+                        const audioBlob = new Blob(audioChunks, { type: 'audio/wav' });
+                        const formData = new FormData();
+                        formData.append('audio', audioBlob, `slide_${currentSlide + 1}_recording.wav`);
+
+                        fetch('/upload_audio', {
+                            method: 'POST',
+                            body: formData
+                        })
+                        .then(response => {
+                            if (!response.ok) throw new Error('上传失败');
+                            console.log('录音上传成功');
+                            alert('录音已保存到服务器');
+                        })
+                        .catch(error => {
+                            console.error('上传错误:', error);
+                            alert('录音上传失败');
+                        });
+
+                        audioChunks = [];
+                        stream.getTracks().forEach(track => track.stop());
+                    };
+
+                    mediaRecorder.start();
+                    isRecording = true;
+                    startTime = Date.now();
+                    timerInterval = setInterval(updateTimer, 1000);
+
+                    const recordButton = document.querySelector('.record-button');
+                    recordButton.classList.add('recording');
+                    console.log("Recording started...");
+                } catch (err) {
+                    console.error("Error accessing microphone:", err.name, err.message);
+                    if (err.name === 'NotFoundError' || err.message.includes('No microphone detected')) {
+                        alert("未找到麦克风设备，请检查是否连接麦克风或启用麦克风。");
+                    } else if (err.name === 'NotAllowedError') {
+                        alert("麦克风权限被拒绝，请在浏览器设置中允许麦克风访问。");
+                    } else {
+                        alert("录音启动失败：" + err.message);
+                    }
+                }
+            }
+        }
+
+        // 停止录音
+        function stopRecording() {
+            if (isRecording && mediaRecorder) {
+                mediaRecorder.stop();
+                clearInterval(timerInterval);
+                isRecording = false;
+
+                document.querySelector('.record-time').textContent = '已录音时长：0:00';
+                const recordButton = document.querySelector('.record-button');
+                recordButton.classList.remove('recording');
+                console.log("Recording stopped...");
+            }
+        }
+
+        // 切换录音状态
+        function toggleRecording() {
+            if (!isRecording) {
+                startRecording();
+            } else {
+                stopRecording();
+            }
+        }
+
+        // 初始化幻灯片
+        {% if slides %}
+        updateSlide();
+        {% endif %}
+    </script>
+</body>
+</html>
